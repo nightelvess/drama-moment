@@ -1,0 +1,65 @@
+{
+  "episode_summary": "盗墓小队潜入古墓意外发现司母戊鼎等多件传说级顶级国宝，意识到事态失控正准备撤离，男主却被古墓巨门的诡异异象吸走，凭空落入一座烛火通明的古代宫廷大殿，目睹古装舞姬表演后，突然遭遇未知存在的致命威胁，剧情戛然而止。",
+  "highlights": [
+    {
+      "start_time": 3.0,
+      "end_time": 25.0,
+      "highlight_type": "suspense",
+      "emotion": "震惊惶恐",
+      "intensity": 0.8,
+      "confidence": 9,
+      "summary": "盗墓小队成员接连认出司母戊鼎、青铜血方罍等传说级顶级国宝，瞬间意识到事态完全超出预料，立刻拿出对讲机呼叫外部同伴。",
+      "interaction_suggestions": [
+        "这墓主人是什么身份？",
+        "你还知道哪些顶级国宝？"
+      ],
+      "reason": "三人手持手电光束指向远处，面部满是错愕骇然，剧情直接抛出超出常规盗墓逻辑的悬念，让观众瞬间好奇后续走向。",
+      "status": "draft"
+    },
+    {
+      "start_time": 44.0,
+      "end_time": 58.0,
+      "highlight_type": "reversal",
+      "emotion": "错愕意外",
+      "intensity": 0.9,
+      "confidence": 9,
+      "summary": "三人正商议准备撤离时，古墓厚重巨门突然泛起诡异紫色光雾，男主直接在同伴眼前凭空消失。",
+      "interaction_suggestions": [
+        "男主直接穿越了？",
+        "其他人为什么没被吸走？"
+      ],
+      "reason": "前一秒众人还在按计划撤退，下一秒紫色异象闪过男主瞬间失踪，完全打破之前的盗墓写实氛围，强反转冲击力极强。",
+      "status": "draft"
+    },
+    {
+      "start_time": 57.0,
+      "end_time": 82.0,
+      "highlight_type": "reversal",
+      "emotion": "恍惚错愕",
+      "intensity": 0.8,
+      "confidence": 9,
+      "summary": "男主推门进入完全陌生的古风宫殿，殿内烛火通明，数位身着橙黄色古装的舞姬正在翩翩起舞，场景完全脱离阴冷古墓的设定。",
+      "interaction_suggestions": [
+        "这是幻觉还是真穿越？",
+        "舞姬是活人还是机关？"
+      ],
+      "reason": "阴冷黑暗的盗墓场景瞬间跳转至暖黄烛火、仙乐萦绕的古代宫廷舞池，前后场景反差极强，颠覆观众预期。",
+      "status": "draft"
+    },
+    {
+      "start_time": 89.0,
+      "end_time": 103.0,
+      "highlight_type": "suspense",
+      "emotion": "极度惊悚",
+      "intensity": 1.0,
+      "confidence": 10,
+      "summary": "男主正茫然环顾四周时，龙椅方向飘出诡异绿雾，传出阴森人声威胁要吃掉他，随后强光闪过直接黑屏断更。",
+      "interaction_suggestions": [
+        "龙椅上是什么怪物？",
+        "男主能躲过致命危机吗？"
+      ],
+      "reason": "全程铺垫的诡异感瞬间爆发，阴森台词配合绿光特效，结尾直接中断完全不给出结果，极强勾住观众追看下一集。",
+      "status": "draft"
+    }
+  ]
+}

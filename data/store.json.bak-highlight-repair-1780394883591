@@ -1,0 +1,573 @@
+{
+  "version": 2,
+  "updatedAt": "2026-05-26T07:12:51.029Z",
+  "highlights": [
+    {
+      "id": "hl_bp_63_01",
+      "episodeKey": "北派寻宝笔记/第63集.mp4",
+      "startTime": 14,
+      "endTime": 28,
+      "type": "悬念",
+      "emotion": "压迫感",
+      "intensity": 0.73,
+      "confidence": 0.82,
+      "summary": "关键人物被围堵质问，场面迅速收紧，形成第一波悬念。",
+      "suggestions": [
+        "不对劲",
+        "谁在撒谎",
+        "继续看"
+      ],
+      "status": "published",
+      "modelSource": "Doubao-Seed-2.0-lite",
+      "modelReason": "对峙画面、持续质问对白和压低的环境氛围共同构成悬念高光。",
+      "updatedAt": "2026-05-25T00:00:00.000Z"
+    },
+    {
+      "id": "hl_bp_63_02",
+      "episodeKey": "北派寻宝笔记/第63集.mp4",
+      "startTime": 42,
+      "endTime": 58,
+      "type": "反转",
+      "emotion": "震惊后爽感释放",
+      "intensity": 0.92,
+      "confidence": 0.9,
+      "summary": "局势突然被关键证据扭转，主导权发生明显切换。",
+      "suggestions": [
+        "爽！",
+        "继续打脸",
+        "我就知道"
+      ],
+      "status": "published",
+      "modelSource": "Doubao-Seed-2.0-lite",
+      "modelReason": "人物站位、对白气势与全场反应同步转折，属于典型反转片段。",
+      "updatedAt": "2026-05-25T00:00:00.000Z"
+    },
+    {
+      "id": "hl_bp_63_03",
+      "episodeKey": "北派寻宝笔记/第63集.mp4",
+      "startTime": 88,
+      "endTime": 102,
+      "type": "剧尾钩子",
+      "emotion": "强悬念",
+      "intensity": 0.81,
+      "confidence": 0.76,
+      "summary": "结尾抛出新的身份线索，为下一集埋下钩子。",
+      "suggestions": [
+        "催更",
+        "我有猜测",
+        "下一集快来"
+      ],
+      "status": "draft",
+      "modelSource": "Doubao-Seed-2.0-lite",
+      "modelReason": "收束镜头和停顿节奏形成明显追更诱因，建议继续复核。",
+      "updatedAt": "2026-05-25T00:00:00.000Z"
+    },
+    {
+      "id": "hl_tx_1_01",
+      "episodeKey": "天下第一纨绔/第1集.mp4",
+      "startTime": 18,
+      "endTime": 34,
+      "type": "冲突",
+      "emotion": "火药味",
+      "intensity": 0.7,
+      "confidence": 0.8,
+      "summary": "主要人物正面交锋，语气和动作都明显升级，冲突感很强。",
+      "suggestions": [
+        "要吵起来了",
+        "继续顶他",
+        "这就开撕"
+      ],
+      "status": "published",
+      "modelSource": "Doubao-Seed-2.0-lite",
+      "modelReason": "高强度对白与逼近式镜头共同强化了冲突氛围。",
+      "updatedAt": "2026-05-25T00:00:00.000Z"
+    },
+    {
+      "id": "hl_tx_1_02",
+      "episodeKey": "天下第一纨绔/第1集.mp4",
+      "startTime": 55,
+      "endTime": 72,
+      "type": "打脸",
+      "emotion": "爽感释放",
+      "intensity": 0.95,
+      "confidence": 0.91,
+      "summary": "被轻视的一方强势回击，完成典型的打脸名场面。",
+      "suggestions": [
+        "打得好",
+        "太解气了",
+        "继续上强度"
+      ],
+      "status": "published",
+      "modelSource": "Doubao-Seed-2.0-lite",
+      "modelReason": "画面节奏、对方表情变化和反击话术共同构成高爽点。",
+      "updatedAt": "2026-05-25T00:00:00.000Z"
+    },
+    {
+      "id": "hl_tx_1_03",
+      "episodeKey": "天下第一纨绔/第1集.mp4",
+      "startTime": 96,
+      "endTime": 110,
+      "type": "剧尾钩子",
+      "emotion": "悬念",
+      "intensity": 0.78,
+      "confidence": 0.74,
+      "summary": "结尾留下后续权力博弈的线索，适合承接剧尾互动。",
+      "suggestions": [
+        "站哪边",
+        "后面更大",
+        "我先蹲后续"
+      ],
+      "status": "draft",
+      "modelSource": "Doubao-Seed-2.0-lite",
+      "modelReason": "结尾信息增量明显，适合作为剧尾钩子候选点。",
+      "updatedAt": "2026-05-25T00:00:00.000Z"
+    },
+    {
+      "id": "hl_import_1779778603450_0",
+      "episodeKey": "北派寻宝笔记/第72集.mp4",
+      "startTime": 8,
+      "endTime": 16,
+      "type": "suspense",
+      "emotion": "suspense",
+      "intensity": 0.8,
+      "confidence": 0.9,
+      "summary": "戴贝雷帽的长辈严肃警告男主，私自倾倒赃土一旦被发现所有人都要吃牢饭，男主恭敬答应任务要求。",
+      "suggestions": [
+        "男主能顺利完成任务吗",
+        "会不会很快被人发现"
+      ],
+      "status": "draft",
+      "modelSource": "Doubao-Seed-2.0-lite",
+      "modelReason": "直接点明核心违法风险，瞬间拉高剧情紧张感，给观众留下极强的未知悬念。",
+      "importedAt": "2026-05-26T06:56:43.450Z",
+      "updatedAt": "2026-05-26T06:56:43.450Z"
+    },
+    {
+      "id": "hl_import_1779778603450_1",
+      "episodeKey": "北派寻宝笔记/第72集.mp4",
+      "startTime": 30,
+      "endTime": 40,
+      "type": "conflict",
+      "emotion": "surprise",
+      "intensity": 0.7,
+      "confidence": 0.9,
+      "summary": "男主正往河里倒土，被巡河的大学生李静当场撞见，对方冲上来一把揪住他，指控他非法电鱼。",
+      "suggestions": [
+        "男主要怎么解释",
+        "能顺利蒙混过关吗"
+      ],
+      "status": "draft",
+      "modelSource": "Doubao-Seed-2.0-lite",
+      "modelReason": "秘密行动突然被路人撞破，直接触发最紧急的正面冲突，情绪张力很强。",
+      "importedAt": "2026-05-26T06:56:43.450Z",
+      "updatedAt": "2026-05-26T06:56:43.450Z"
+    },
+    {
+      "id": "hl_import_1779778603450_2",
+      "episodeKey": "北派寻宝笔记/第72集.mp4",
+      "startTime": 48,
+      "endTime": 58,
+      "type": "conflict",
+      "emotion": "shock",
+      "intensity": 0.6,
+      "confidence": 0.85,
+      "summary": "二人拉扯时撞见路过的李半仙，李静立刻向对方邀功，炫耀自己抓到了电鱼的嫌疑人。",
+      "suggestions": [
+        "先生会帮谁说话",
+        "局面会怎么发展"
+      ],
+      "status": "draft",
+      "modelSource": "Doubao-Seed-2.0-lite",
+      "modelReason": "第三方角色突然介入冲突，让原本就棘手的局面彻底脱离男主掌控。",
+      "importedAt": "2026-05-26T06:56:43.450Z",
+      "updatedAt": "2026-05-26T06:56:43.450Z"
+    },
+    {
+      "id": "hl_import_1779778603450_3",
+      "episodeKey": "北派寻宝笔记/第72集.mp4",
+      "startTime": 70,
+      "endTime": 95,
+      "type": "suspense",
+      "emotion": "surprise",
+      "intensity": 0.7,
+      "confidence": 0.9,
+      "summary": "李静要求李半仙算卦验证男主是不是真的在电鱼，男主被逼无奈随便写了个假出生日期递过去。",
+      "suggestions": [
+        "假生日能骗过先生吗",
+        "算卦会算出真相吗"
+      ],
+      "status": "draft",
+      "modelSource": "Doubao-Seed-2.0-lite",
+      "modelReason": "争执突然转向玄学推演，剧情走向完全不可预判，悬念感瞬间升级。",
+      "importedAt": "2026-05-26T06:56:43.450Z",
+      "updatedAt": "2026-05-26T06:56:43.450Z"
+    },
+    {
+      "id": "hl_import_1779778603450_4",
+      "episodeKey": "北派寻宝笔记/第72集.mp4",
+      "startTime": 100,
+      "endTime": 112,
+      "type": "suspense",
+      "emotion": "suspense",
+      "intensity": 0.8,
+      "confidence": 0.95,
+      "summary": "李半仙拿出龟甲和铜钱，动作郑重地现场起卦演算，男主和李静全程屏息盯着。",
+      "suggestions": [
+        "卦象结果是吉是凶",
+        "男主身份要暴露了吗"
+      ],
+      "status": "draft",
+      "modelSource": "Doubao-Seed-2.0-lite",
+      "modelReason": "仪式感拉满的算卦场景，观众都迫切想立刻得知最终结果，是强互动触发点。",
+      "importedAt": "2026-05-26T06:56:43.450Z",
+      "updatedAt": "2026-05-26T06:56:43.450Z"
+    },
+    {
+      "id": "hl_import_1779778603450_5",
+      "episodeKey": "北派寻宝笔记/第72集.mp4",
+      "startTime": 115,
+      "endTime": 126,
+      "type": "suspense",
+      "emotion": "shock",
+      "intensity": 0.9,
+      "confidence": 1,
+      "summary": "李半仙看完卦象完全没提电鱼的事，反而抬眼盯着男主说出“你这命不简单呐”，直接断集留下钩子。",
+      "suggestions": [
+        "先生发现了什么秘密",
+        "男主到底是什么身份"
+      ],
+      "status": "draft",
+      "modelSource": "Doubao-Seed-2.0-lite",
+      "modelReason": "完全反转观众预期，跳过表层电鱼纠纷直接指向男主隐藏的特殊身世，是绝佳的追更钩子。",
+      "importedAt": "2026-05-26T06:56:43.450Z",
+      "updatedAt": "2026-05-26T06:56:43.450Z"
+    },
+    {
+      "id": "hl_import_1779779571029_0",
+      "episodeKey": "北派寻宝笔记/第66集.mp4",
+      "startTime": 55,
+      "endTime": 68,
+      "type": "悬念",
+      "emotion": "suspense",
+      "intensity": 0.8,
+      "confidence": 0.9,
+      "summary": "把头王显生猛地拍桌站起，当众宣布今晚凌晨即刻上山下墓，在场所有人瞬间绷紧神经，气氛从轻松变得极度严肃。",
+      "suggestions": [
+        "就现在动身出发？",
+        "下墓有什么行规？",
+        "能不能临时反悔？"
+      ],
+      "status": "draft",
+      "modelSource": "Doubao-Seed-2.0-lite",
+      "modelReason": "原本松弛的分工会议突然升级为即刻执行的高危盗墓行动，低沉压迫的配乐瞬间拉满紧张感，代入感极强。",
+      "importedAt": "2026-05-26T07:12:51.029Z",
+      "updatedAt": "2026-05-26T07:12:51.029Z"
+    },
+    {
+      "id": "hl_import_1779779571029_1",
+      "episodeKey": "北派寻宝笔记/第66集.mp4",
+      "startTime": 99,
+      "endTime": 115,
+      "type": "悬念",
+      "emotion": "fear",
+      "intensity": 0.7,
+      "confidence": 0.9,
+      "summary": "把头用对讲机和留守的孙老大暗语对接，确认周边无外人后，正式下令用“金针灌顶”手法开始打盗洞。",
+      "suggestions": [
+        "金针灌顶是什么手法？",
+        "周边真的安全吗？"
+      ],
+      "status": "draft",
+      "modelSource": "Doubao-Seed-2.0-lite",
+      "modelReason": "深夜密林里通过对讲机传出的盗墓黑话完全贴合隐秘行动设定，未知的操作带来强烈的未知恐惧感。",
+      "importedAt": "2026-05-26T07:12:51.029Z",
+      "updatedAt": "2026-05-26T07:12:51.029Z"
+    },
+    {
+      "id": "hl_import_1779779571029_2",
+      "episodeKey": "北派寻宝笔记/第66集.mp4",
+      "startTime": 125,
+      "endTime": 138,
+      "type": "爽点",
+      "emotion": "joy",
+      "intensity": 0.8,
+      "confidence": 0.9,
+      "summary": "孙老二挥动洛阳铲带出带有特殊标记的泥土，精准确认古墓位置，三人立刻兴奋联手加速开挖。",
+      "suggestions": [
+        "这泥土有什么特殊含义？",
+        "马上就能挖到墓口了？"
+      ],
+      "status": "draft",
+      "modelSource": "Doubao-Seed-2.0-lite",
+      "modelReason": "众人辛苦定位终于得到验证，团伙成员兴奋的表情和急促的挖土动作直接释放寻墓成功的爽感。",
+      "importedAt": "2026-05-26T07:12:51.029Z",
+      "updatedAt": "2026-05-26T07:12:51.029Z"
+    },
+    {
+      "id": "hl_import_1779779571029_3",
+      "episodeKey": "北派寻宝笔记/第66集.mp4",
+      "startTime": 153,
+      "endTime": 162,
+      "type": "悬念",
+      "emotion": "fear",
+      "intensity": 0.8,
+      "confidence": 0.9,
+      "summary": "林间传来报丧鸟诡异的鸣叫声，把头脸色大变当场直呼太不吉利，现场压抑感瞬间暴涨。",
+      "suggestions": [
+        "报丧鸟是凶兆吗？",
+        "他们会取消行动吗？"
+      ],
+      "status": "draft",
+      "modelSource": "Doubao-Seed-2.0-lite",
+      "modelReason": "惊悚的怪鸟音效搭配角色凝重紧绷的表情，在深夜盗墓的场景设定下把恐怖不安的氛围拉满。",
+      "importedAt": "2026-05-26T07:12:51.029Z",
+      "updatedAt": "2026-05-26T07:12:51.029Z"
+    },
+    {
+      "id": "hl_import_1779779571029_4",
+      "episodeKey": "北派寻宝笔记/第66集.mp4",
+      "startTime": 164,
+      "endTime": 176,
+      "type": "爽点",
+      "emotion": "relief",
+      "intensity": 0.7,
+      "confidence": 0.9,
+      "summary": "三人合力终于挖通盗洞，露出黑漆漆的墓道入口，把头当即下令众人立刻下洞寻宝，要求天亮前返回。",
+      "suggestions": [
+        "进洞会触发机关吗？",
+        "谁第一个下去探路？"
+      ],
+      "status": "draft",
+      "modelSource": "Doubao-Seed-2.0-lite",
+      "modelReason": "耗时许久终于打通盗洞，阶段性目标完成，整个团伙都处于亢奋状态，强烈满足盗墓题材观众的期待。",
+      "importedAt": "2026-05-26T07:12:51.029Z",
+      "updatedAt": "2026-05-26T07:12:51.029Z"
+    },
+    {
+      "id": "hl_import_1779779571029_5",
+      "episodeKey": "北派寻宝笔记/第66集.mp4",
+      "startTime": 198,
+      "endTime": 209,
+      "type": "悬念",
+      "emotion": "shock",
+      "intensity": 0.9,
+      "confidence": 0.95,
+      "summary": "云峰用手电照亮古墓绵延无尽的幽深通道，所有人都呆立原地，他脱口惊呼这里就是传说中的龙穴，本集在此戛然而止。",
+      "suggestions": [
+        "龙穴里藏着什么宝贝？",
+        "里面有致命机关吗？",
+        "下集要怎么寻宝？"
+      ],
+      "status": "draft",
+      "modelSource": "Doubao-Seed-2.0-lite",
+      "modelReason": "作为本集最强结尾钩子，首次揭开传说中龙穴的真容，巨大的未知感直接勾住观众迫不及待想看下一集的欲望。",
+      "importedAt": "2026-05-26T07:12:51.029Z",
+      "updatedAt": "2026-05-26T07:12:51.029Z"
+    }
+  ],
+  "interactions": [
+    {
+      "id": "act_seed_01",
+      "highlightId": "hl_bp_63_01",
+      "episodeKey": "北派寻宝笔记/第63集.mp4",
+      "reaction": "不对劲",
+      "createdAt": "2026-05-25T00:00:00.000Z"
+    },
+    {
+      "id": "act_seed_02",
+      "highlightId": "hl_bp_63_02",
+      "episodeKey": "北派寻宝笔记/第63集.mp4",
+      "reaction": "爽！",
+      "createdAt": "2026-05-25T00:00:00.000Z"
+    },
+    {
+      "id": "act_seed_03",
+      "highlightId": "hl_tx_1_02",
+      "episodeKey": "天下第一纨绔/第1集.mp4",
+      "reaction": "太解气了",
+      "createdAt": "2026-05-25T00:00:00.000Z"
+    },
+    {
+      "id": "act_1779765852817",
+      "highlightId": "hl_bp_63_01",
+      "episodeKey": "北派寻宝笔记/第63集.mp4",
+      "reaction": "继续看",
+      "createdAt": "2026-05-26T03:24:12.817Z"
+    },
+    {
+      "id": "act_1779765854908",
+      "highlightId": "hl_bp_63_01",
+      "episodeKey": "北派寻宝笔记/第63集.mp4",
+      "reaction": "不对劲",
+      "createdAt": "2026-05-26T03:24:14.908Z"
+    },
+    {
+      "id": "act_1779765856147",
+      "highlightId": "hl_bp_63_01",
+      "episodeKey": "北派寻宝笔记/第63集.mp4",
+      "reaction": "谁在撒谎",
+      "createdAt": "2026-05-26T03:24:16.147Z"
+    },
+    {
+      "id": "act_1779765862136",
+      "highlightId": "hl_bp_63_02",
+      "episodeKey": "北派寻宝笔记/第63集.mp4",
+      "reaction": "我就知道",
+      "createdAt": "2026-05-26T03:24:22.136Z"
+    },
+    {
+      "id": "act_1779765863123",
+      "highlightId": "hl_bp_63_02",
+      "episodeKey": "北派寻宝笔记/第63集.mp4",
+      "reaction": "爽！",
+      "createdAt": "2026-05-26T03:24:23.123Z"
+    },
+    {
+      "id": "act_1779765865453",
+      "highlightId": "hl_bp_63_02",
+      "episodeKey": "北派寻宝笔记/第63集.mp4",
+      "reaction": "爽！",
+      "createdAt": "2026-05-26T03:24:25.453Z"
+    },
+    {
+      "id": "act_1779765866302",
+      "highlightId": "hl_bp_63_02",
+      "episodeKey": "北派寻宝笔记/第63集.mp4",
+      "reaction": "继续打脸",
+      "createdAt": "2026-05-26T03:24:26.302Z"
+    },
+    {
+      "id": "act_1779765867262",
+      "highlightId": "hl_bp_63_02",
+      "episodeKey": "北派寻宝笔记/第63集.mp4",
+      "reaction": "我就知道",
+      "createdAt": "2026-05-26T03:24:27.262Z"
+    },
+    {
+      "id": "act_1779766184817",
+      "highlightId": "hl_bp_63_01",
+      "episodeKey": "北派寻宝笔记/第63集.mp4",
+      "reaction": "继续看",
+      "createdAt": "2026-05-26T03:29:44.817Z"
+    },
+    {
+      "id": "act_1779766478719",
+      "highlightId": "hl_tx_1_02",
+      "episodeKey": "天下第一纨绔/第1集.mp4",
+      "reaction": "打得好",
+      "createdAt": "2026-05-26T03:34:38.719Z"
+    },
+    {
+      "id": "act_1779766480997",
+      "highlightId": "hl_tx_1_02",
+      "episodeKey": "天下第一纨绔/第1集.mp4",
+      "reaction": "太解气了",
+      "createdAt": "2026-05-26T03:34:40.997Z"
+    },
+    {
+      "id": "act_1779766482483",
+      "highlightId": "hl_tx_1_02",
+      "episodeKey": "天下第一纨绔/第1集.mp4",
+      "reaction": "继续上强度",
+      "createdAt": "2026-05-26T03:34:42.483Z"
+    },
+    {
+      "id": "act_1779778636425",
+      "highlightId": "hl_bp_63_01",
+      "episodeKey": "北派寻宝笔记/第63集.mp4",
+      "reaction": "不对劲",
+      "createdAt": "2026-05-26T06:57:16.425Z"
+    },
+    {
+      "id": "act_1779778638191",
+      "highlightId": "hl_bp_63_01",
+      "episodeKey": "北派寻宝笔记/第63集.mp4",
+      "reaction": "继续看",
+      "createdAt": "2026-05-26T06:57:18.191Z"
+    },
+    {
+      "id": "act_1779778639986",
+      "highlightId": "hl_bp_63_01",
+      "episodeKey": "北派寻宝笔记/第63集.mp4",
+      "reaction": "谁在撒谎",
+      "createdAt": "2026-05-26T06:57:19.986Z"
+    },
+    {
+      "id": "act_1779778641039",
+      "highlightId": "hl_bp_63_01",
+      "episodeKey": "北派寻宝笔记/第63集.mp4",
+      "reaction": "继续看",
+      "createdAt": "2026-05-26T06:57:21.039Z"
+    },
+    {
+      "id": "act_1779778658892",
+      "highlightId": "hl_bp_63_02",
+      "episodeKey": "北派寻宝笔记/第63集.mp4",
+      "reaction": "我就知道",
+      "createdAt": "2026-05-26T06:57:38.892Z"
+    },
+    {
+      "id": "act_1779778660146",
+      "highlightId": "hl_bp_63_02",
+      "episodeKey": "北派寻宝笔记/第63集.mp4",
+      "reaction": "继续打脸",
+      "createdAt": "2026-05-26T06:57:40.146Z"
+    },
+    {
+      "id": "act_1779778664534",
+      "highlightId": "hl_bp_63_02",
+      "episodeKey": "北派寻宝笔记/第63集.mp4",
+      "reaction": "继续打脸",
+      "createdAt": "2026-05-26T06:57:44.534Z"
+    },
+    {
+      "id": "act_1779778665799",
+      "highlightId": "hl_bp_63_02",
+      "episodeKey": "北派寻宝笔记/第63集.mp4",
+      "reaction": "我就知道",
+      "createdAt": "2026-05-26T06:57:45.799Z"
+    },
+    {
+      "id": "act_1779778666841",
+      "highlightId": "hl_bp_63_02",
+      "episodeKey": "北派寻宝笔记/第63集.mp4",
+      "reaction": "爽！",
+      "createdAt": "2026-05-26T06:57:46.841Z"
+    },
+    {
+      "id": "act_1779778667464",
+      "highlightId": "hl_bp_63_02",
+      "episodeKey": "北派寻宝笔记/第63集.mp4",
+      "reaction": "继续打脸",
+      "createdAt": "2026-05-26T06:57:47.464Z"
+    },
+    {
+      "id": "act_1779778667974",
+      "highlightId": "hl_bp_63_02",
+      "episodeKey": "北派寻宝笔记/第63集.mp4",
+      "reaction": "我就知道",
+      "createdAt": "2026-05-26T06:57:47.974Z"
+    },
+    {
+      "id": "act_1779779223735",
+      "highlightId": "hl_bp_63_01",
+      "episodeKey": "北派寻宝笔记/第63集.mp4",
+      "reaction": "谁在撒谎",
+      "createdAt": "2026-05-26T07:07:03.735Z"
+    },
+    {
+      "id": "act_1779779225075",
+      "highlightId": "hl_bp_63_01",
+      "episodeKey": "北派寻宝笔记/第63集.mp4",
+      "reaction": "不对劲",
+      "createdAt": "2026-05-26T07:07:05.075Z"
+    },
+    {
+      "id": "act_1779779226189",
+      "highlightId": "hl_bp_63_01",
+      "episodeKey": "北派寻宝笔记/第63集.mp4",
+      "reaction": "继续看",
+      "createdAt": "2026-05-26T07:07:06.189Z"
+    }
+  ]
+}

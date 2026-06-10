@@ -1,0 +1,48 @@
+# 依赖
+node_modules/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+*.egg-info/
+dist/
+build/
+
+# 视频文件（太大，不适合上传到Git）
+data/*/*.mp4
+data/*/*.mkv
+data/*/*.avi
+data/*/*.mov
+!data/.gitkeep
+
+# 敏感配置
+data/model-settings.json
+.env
+*.env
+
+# 日志
+*.log
+logs/
+
+# 编辑器
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 操作系统
+.DS_Store
+Thumbs.db
+
+# 临时文件
+*.tmp
+*.temp
+.cache/
+
+# Python虚拟环境
+venv/
+env/
+ENV/

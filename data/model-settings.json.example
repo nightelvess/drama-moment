@@ -1,0 +1,7 @@
+{
+  "apiKey": "your_volcengine_api_key_here",
+  "endpointId": "your_endpoint_id_here",
+  "modelName": "doubao-seed-2.0-lite",
+  "lastCheck": null,
+  "status": "not_configured"
+}

@@ -1,0 +1,17 @@
+{
+  "screenFlash": {
+    "enabled": true,
+    "duration": 700,
+    "color": "rgba(255, 255, 255, 0.4)"
+  },
+  "heartRain": {
+    "enabled": true,
+    "count": 8,
+    "particleDuration": 2000,
+    "interval": 120
+  },
+  "highlightTrigger": {
+    "debounceTime": 5,
+    "allowRepeat": true
+  }
+}

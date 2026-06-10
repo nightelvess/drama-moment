@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>剧燃 Moment</title>
+    <link rel="stylesheet" href="/styles.css?v=delivery-20260610" />
+  </head>
+  <body>
+    <div class="studio-player-page delivery-player">
+      <nav class="app-rail" aria-label="主导航">
+        <div class="rail-logo">燃</div>
+        <a class="rail-item active" href="/" title="前台播放">播</a>
+        <a class="rail-item" href="/review.html?v=delivery" title="审核后台">审</a>
+      </nav>
+
+      <main class="studio-main">
+        <header class="studio-topbar">
+          <div class="brand-lockup">
+            <span class="brand-icon" aria-hidden="true">◆</span>
+            <strong>剧燃 Moment</strong>
+          </div>
+          <label class="topbar-search">
+            <span>⌕</span>
+            <input id="drama-search" type="search" placeholder="搜索短剧 / 集数，例如 72" autocomplete="off" />
+          </label>
+          <h1 id="demo-episode-title">请选择剧集</h1>
+          <div class="theater-actions">
+            <label class="upload mini-upload">
+              <span>本地视频</span>
+              <input id="video-file" type="file" accept="video/*" />
+            </label>
+            <button id="toggle-effects" class="secondary" type="button">动效：开</button>
+            <button id="open-settings" class="secondary" type="button">配置</button>
+          </div>
+        </header>
+
+        <section class="studio-player-card">
+          <div class="video-stage">
+            <video id="video" playsinline webkit-playsinline preload="metadata"></video>
+            <div class="video-overlay" aria-hidden="true"></div>
+            <button id="center-play-btn" class="center-play-btn" type="button" aria-label="播放">▶</button>
+            <div id="danmaku-layer" class="danmaku-layer" aria-hidden="true"></div>
+            <div id="aigc-insert" class="aigc-insert hidden">
+              <div class="aigc-content">
+                <div class="aigc-countdown"></div>
+                <div class="aigc-text"></div>
+              </div>
+            </div>
+            <div id="demo-stage" class="demo-stage hidden">
+              <div class="demo-badge">演示时间轴</div>
+              <div class="demo-center">
+                <h3>等待选择剧集</h3>
+                <p>没有真实视频时，可用模拟时间轴验证高光触发、互动组件和动效。</p>
+              </div>
+            </div>
+            <div id="overlay" class="overlay hidden"></div>
+
+            <div class="video-controls-overlay" id="video-controls-overlay">
+              <button id="play-overlay-btn" class="vc-ctrl-btn" type="button" title="播放/暂停">▶</button>
+              <button id="volume-btn" class="vc-ctrl-btn" type="button" title="静音">🔊</button>
+              <div class="timeline-wrap">
+                <div class="timeline-track">
+                  <div class="timeline-bg"></div>
+                  <div id="timeline-played" class="timeline-played"></div>
+                  <div id="heatmap" class="heatmap"></div>
+                  <input id="timeline" class="timeline" type="range" min="0" max="100" value="0" step="0.1" />
+                </div>
+                <div id="timeline-hover-preview" class="timeline-hover-preview">00:00</div>
+              </div>
+              <span id="time-label" class="vc-time-label">00:00 / 00:00</span>
+              <button id="branch-videos-btn" class="vc-ctrl-btn hidden" type="button" title="分支视频">🎬</button>
+            </div>
+          </div>
+
+          <div id="branch-video-panel" class="branch-video-panel hidden">
+            <div class="branch-video-panel-header">
+              <span>分支剧情视频</span>
+              <button id="close-branch-panel" class="branch-panel-close" type="button" aria-label="关闭">×</button>
+            </div>
+            <div id="branch-video-list" class="branch-video-list"></div>
+          </div>
+        </section>
+      </main>
+
+      <aside class="drama-drawer">
+        <section class="drawer-section drama-meta-card">
+          <p class="eyebrow">AI 短剧互动</p>
+          <h2>剧燃 Moment</h2>
+          <p class="muted">短剧理解、高光审核、播放触发、互动统计的一体化演示台。</p>
+          <div class="meta-badges">
+            <span>高光时间戳</span>
+            <span>端上动效</span>
+            <span>Doubao 理解</span>
+          </div>
+        </section>
+
+        <section class="drawer-section drawer-tabs-section">
+          <div class="drawer-tabs">
+            <button class="drawer-tab active" type="button" data-drawer-tab="episodes">播放列表</button>
+            <button class="drawer-tab" type="button" data-drawer-tab="highlights">高光点</button>
+            <button class="drawer-tab" type="button" data-drawer-tab="stats">互动统计</button>
+          </div>
+        </section>
+
+        <section class="drawer-section drawer-panel active" data-drawer-panel="episodes">
+          <div id="drama-list" class="drama-list"></div>
+        </section>
+
+        <section class="drawer-section drawer-panel" data-drawer-panel="highlights">
+          <div class="panel-header">
+            <h2>本集高光</h2>
+            <span id="current-tag" class="chip neutral">等待触发</span>
+          </div>
+          <div id="highlight-summary" class="stack compact"></div>
+          <div class="drawer-divider"></div>
+          <h2>当前高光</h2>
+          <div id="current-highlight" class="stack">
+            <p class="muted">播放进入高光区间后，这里会展示剧情摘要、互动按钮和模型判断。</p>
+          </div>
+        </section>
+
+        <section class="drawer-section drawer-panel" data-drawer-panel="stats">
+          <h2>互动统计</h2>
+          <div id="stats-board" class="stack compact"></div>
+        </section>
+      </aside>
+    </div>
+
+    <div id="settings-modal" class="modal hidden">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h2>动效与触发配置</h2>
+          <button id="close-settings" class="close-btn" type="button">&times;</button>
+        </div>
+        <div class="modal-body">
+          <div class="settings-section">
+            <h3>闪屏效果</h3>
+            <div class="setting-item">
+              <label><input type="checkbox" id="screen-flash-enabled" checked /> 启用闪屏</label>
+            </div>
+            <div class="setting-item">
+              <label>持续时间</label>
+              <input type="range" id="screen-flash-duration" min="100" max="2000" value="700" />
+              <span id="screen-flash-duration-value">700ms</span>
+            </div>
+          </div>
+          <div class="settings-section">
+            <h3>爱心雨效果</h3>
+            <div class="setting-item">
+              <label><input type="checkbox" id="heart-rain-enabled" checked /> 启用爱心雨</label>
+            </div>
+            <div class="setting-item">
+              <label>粒子数量</label>
+              <input type="range" id="heart-rain-count" min="1" max="30" value="8" />
+              <span id="heart-rain-count-value">8</span>
+            </div>
+            <div class="setting-item">
+              <label>粒子时长</label>
+              <input type="range" id="heart-rain-particle-duration" min="500" max="5000" value="2000" />
+              <span id="heart-rain-particle-duration-value">2000ms</span>
+            </div>
+          </div>
+          <div class="settings-section">
+            <h3>高光触发</h3>
+            <div class="setting-item">
+              <label><input type="checkbox" id="allow-repeat-trigger" checked /> 允许重复触发</label>
+            </div>
+            <div class="setting-item">
+              <label>防抖时间</label>
+              <input type="range" id="debounce-time" min="1" max="60" value="5" />
+              <span id="debounce-time-value">5秒</span>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button id="save-settings" class="primary" type="button">保存设置</button>
+          <button id="reset-settings" class="secondary" type="button">重置默认</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="/app.js?v=delivery-20260610"></script>
+  </body>
+</html>

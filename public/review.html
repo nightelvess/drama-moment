@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>剧燃 Moment · 高光审核台</title>
+    <link rel="stylesheet" href="/styles.css?v=delivery-20260610" />
+  </head>
+  <body>
+    <div class="review-v2-workbench delivery-review">
+      <header class="rv2-topbar">
+        <div class="rv2-brand">
+          <span class="rv2-brand-mark">燃</span>
+          <div>
+            <p class="rv2-eyebrow">Review Workbench</p>
+            <h1 id="review-title">高光审核台</h1>
+            <p id="review-meta" class="rv2-muted">按剧集审核 AI 高光，完成编辑、发布、删除和分支生成。</p>
+          </div>
+        </div>
+        <div class="rv2-topbar-center">
+          <span id="import-status" class="rv2-status">等待操作</span>
+        </div>
+        <div class="rv2-topbar-actions">
+          <a class="rv2-ghost-btn" href="/">返回播放器</a>
+        </div>
+      </header>
+
+      <span id="kpi-episodes" class="sr-only">0</span>
+      <span id="kpi-api" class="sr-only">检测中</span>
+      <span id="kpi-published" class="sr-only">0</span>
+      <span id="kpi-highlights" class="sr-only">0</span>
+
+      <main class="rv2-main">
+        <section class="rv2-video-col">
+          <div class="rv2-video-stage">
+            <div class="rv2-video-wrapper">
+              <video id="review-video" playsinline webkit-playsinline preload="metadata">
+                <source src="" type="video/mp4" />
+              </video>
+              <div class="video-overlay"></div>
+            </div>
+            <div class="rv2-video-controls">
+              <button id="video-play" class="rv2-ctrl-btn" type="button">▶</button>
+              <button id="video-mute" class="rv2-ctrl-btn rv2-ctrl-sm" type="button">🔊</button>
+              <button id="video-fullscreen" class="rv2-ctrl-btn rv2-ctrl-sm" type="button">⛶</button>
+            </div>
+          </div>
+
+          <div class="rv2-timeline-section">
+            <div class="rv2-timeline-header">
+              <div class="rv2-timeline-header-left">
+                <span class="rv2-timeline-label">高光时间轴</span>
+                <span id="review-title-inline" class="rv2-review-title-inline">请选择剧集</span>
+                <span class="rv2-stats-inline">
+                  <b id="page-highlight-count">0</b> 条高光 ·
+                  <b id="page-published-count">0</b> 已发布 ·
+                  <b id="page-pending-count">0</b> 待审
+                </span>
+              </div>
+              <div class="rv2-timeline-header-right">
+                <button id="run-analyze" class="rv2-primary-btn rv2-btn-sm" type="button">解析高光</button>
+                <button id="create-highlight" class="rv2-action-btn" type="button">手动新建</button>
+                <button id="show-overview" class="rv2-action-btn" type="button">高光总览</button>
+                <span id="current-highlight-indicator" class="rv2-timeline-indicator"></span>
+              </div>
+            </div>
+            <div class="rv2-timeline-track" id="timeline-track">
+              <div id="video-heatmap" class="heatmap rv2-heatmap"></div>
+              <div id="video-highlight-marks" class="rv2-marks-layer"></div>
+              <div id="timeline-playhead" class="rv2-timeline-playhead"></div>
+              <div class="rv2-timeline-click-zone" id="timeline-click-zone"></div>
+            </div>
+            <div class="rv2-timeline-ruler" id="timeline-ruler"></div>
+            <div class="rv2-timeline-actions">
+              <button id="jump-to-prev" class="rv2-action-btn" type="button">上一高光</button>
+              <span id="video-time" class="rv2-video-time-inline">00:00 / 00:00</span>
+              <input id="video-progress" type="hidden" min="0" max="100" value="0" />
+              <button id="jump-to-next" class="rv2-action-btn" type="button">下一高光</button>
+            </div>
+            <div id="analyze-progress" class="rv2-analyze-progress hidden" aria-live="polite">
+              <div class="rv2-analyze-pulse" aria-hidden="true"></div>
+              <div class="rv2-analyze-copy">
+                <strong id="analyze-progress-title">等待解析</strong>
+                <span id="analyze-progress-detail">选择剧集后点击“解析高光”，这里会显示模型解析进度和结果。</span>
+                <em id="analyze-progress-meta"></em>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <aside class="rv2-panel-col">
+          <nav class="rv2-tabs">
+            <button class="rv2-tab active" type="button" data-rv2-tab="episodes">剧集列表</button>
+            <button class="rv2-tab" type="button" data-rv2-tab="editor">高光编辑</button>
+            <button class="rv2-tab" type="button" data-rv2-tab="ai-tools">AI 工具</button>
+          </nav>
+
+          <section class="rv2-tab-panel active" data-rv2-panel="episodes">
+            <label class="rv2-search-box">
+              <span>⌕</span>
+              <input id="episode-search" type="search" placeholder="搜索剧名 / 集数..." autocomplete="off" />
+            </label>
+            <div class="rv2-filter-row">
+              <button class="rv2-filter active" type="button" data-review-filter="all">全部</button>
+              <button class="rv2-filter" type="button" data-review-filter="todo">待处理</button>
+              <button class="rv2-filter" type="button" data-review-filter="ready">已处理</button>
+            </div>
+            <div id="episode-list" class="rv2-episode-list"></div>
+          </section>
+
+          <section class="rv2-tab-panel" data-rv2-panel="editor">
+            <div id="editor-empty" class="rv2-editor-empty">
+              <p>点击时间轴上的高光标记，或从高光总览选择一条高光进行编辑。</p>
+            </div>
+            <form id="highlight-edit-form" class="rv2-editor-form hidden">
+              <div class="rv2-field-row">
+                <label class="rv2-field">
+                  <span>高光类型</span>
+                  <select id="edit-type">
+                    <option value="冲突">冲突</option>
+                    <option value="反转">反转</option>
+                    <option value="打脸">打脸</option>
+                    <option value="爽点">爽点</option>
+                    <option value="甜蜜">甜蜜</option>
+                    <option value="搞笑">搞笑</option>
+                    <option value="营救">营救</option>
+                    <option value="身份揭露">身份揭露</option>
+                    <option value="情绪爆发">情绪爆发</option>
+                    <option value="悬念">悬念</option>
+                    <option value="剧尾钩子">剧尾钩子</option>
+                  </select>
+                </label>
+                <label class="rv2-field rv2-field-sm">
+                  <span>状态</span>
+                  <select id="edit-status">
+                    <option value="draft">草稿</option>
+                    <option value="published">已发布</option>
+                  </select>
+                </label>
+              </div>
+              <div class="rv2-field-row">
+                <label class="rv2-field rv2-field-sm">
+                  <span>开始(s)</span>
+                  <input id="edit-start-time" type="number" step="0.1" min="0" placeholder="0.0" />
+                </label>
+                <label class="rv2-field rv2-field-sm">
+                  <span>结束(s)</span>
+                  <input id="edit-end-time" type="number" step="0.1" min="0" placeholder="10.0" />
+                </label>
+                <label class="rv2-field rv2-field-sm">
+                  <span>置信度</span>
+                  <input id="edit-confidence" type="range" min="0" max="1" step="0.05" value="0.8" />
+                  <span id="edit-confidence-value" class="rv2-field-hint">80%</span>
+                </label>
+              </div>
+              <label class="rv2-field">
+                <span>摘要</span>
+                <textarea id="edit-summary" rows="3" placeholder="输入高光摘要..."></textarea>
+              </label>
+              <label class="rv2-field">
+                <span>模型判断理由</span>
+                <textarea id="edit-reason" rows="2" placeholder="说明为什么这是高光..."></textarea>
+              </label>
+              <label class="rv2-field">
+                <span>互动建议，逗号分隔</span>
+                <input id="edit-suggestions" type="text" placeholder="这也太爽了, 看他怎么反击, 名场面来了" />
+              </label>
+              <div class="rv2-editor-actions">
+                <button type="button" id="edit-delete" class="rv2-delete-btn">删除</button>
+                <button type="button" id="edit-cancel" class="rv2-secondary-btn">取消</button>
+                <button type="submit" class="rv2-primary-btn">保存</button>
+              </div>
+            </form>
+          </section>
+
+          <section class="rv2-tab-panel" data-rv2-panel="ai-tools">
+            <div class="rv2-ai-section">
+              <h3>视频分支生成</h3>
+              <p class="rv2-ai-hint">先在时间轴或高光总览中选中一个高光，再为该高光生成对应的 AIGC 分支。</p>
+              <div id="selected-highlight-for-branch" class="rv2-selected-highlight">未选择高光</div>
+              <div id="selected-highlight-branches" class="rv2-branch-manager">
+                <p class="rv2-muted">选中高光后，这里会展示该高光已有的 AIGC 分支。</p>
+              </div>
+              <button id="generate-continuation" class="rv2-primary-btn rv2-full-width" type="button">为选中高光生成 AIGC 分支</button>
+              <div id="video-branch-result" class="rv2-ai-result"></div>
+            </div>
+
+            <hr class="rv2-divider" />
+
+            <div class="rv2-ai-section">
+              <h3>视频生成任务</h3>
+              <p class="rv2-ai-hint">将分支的 video_prompt 提交给视频生成模型，演示版可作为任务池展示。</p>
+              <div id="video-gen-tasks" class="rv2-vg-list">
+                <p class="rv2-muted">暂无任务。先生成视频分支，再提交生成。</p>
+              </div>
+              <button id="refresh-vg-tasks" class="rv2-secondary-btn rv2-full-width" type="button">刷新任务状态</button>
+            </div>
+
+            <hr class="rv2-divider" />
+
+            <div class="rv2-ai-section">
+              <h3>已生成视频</h3>
+              <div id="generated-videos" class="rv2-gen-videos">
+                <p class="rv2-muted">暂无已生成的视频。</p>
+              </div>
+            </div>
+
+            <hr class="rv2-divider" />
+
+            <details class="rv2-collapse">
+              <summary>JSON 导入 / Prompt 模板</summary>
+              <div class="rv2-import-panel">
+                <textarea id="import-json" class="rv2-import-ta" placeholder='{"highlights":[...]}' rows="4"></textarea>
+                <div class="rv2-import-row">
+                  <label class="rv2-check-label">
+                    <input id="replace-existing" type="checkbox" />
+                    <span>替换已有高光</span>
+                  </label>
+                  <select id="default-status" class="rv2-select-sm">
+                    <option value="draft">导入为草稿</option>
+                    <option value="published">直接发布</option>
+                  </select>
+                </div>
+                <div class="rv2-import-btns">
+                  <button id="fill-example" class="rv2-secondary-btn" type="button">填入示例</button>
+                  <button id="run-import" class="rv2-primary-btn" type="button">导入 JSON</button>
+                </div>
+                <div class="rv2-prompt-box">
+                  <button id="copy-prompt" class="rv2-secondary-btn rv2-full-width" type="button">复制 Prompt 到剪贴板</button>
+                  <textarea id="prompt-markdown" class="rv2-prompt-ta" readonly rows="6"></textarea>
+                </div>
+              </div>
+            </details>
+          </section>
+        </aside>
+      </main>
+
+      <div id="highlight-overview-modal" class="highlight-overview-modal hidden" role="dialog" aria-modal="true">
+        <div class="highlight-overview-backdrop" data-overview-close></div>
+        <section class="highlight-overview-card">
+          <header class="highlight-overview-head">
+            <div>
+              <p class="eyebrow">Episode Highlights</p>
+              <h2 id="overview-title">本集高光</h2>
+              <p id="overview-meta" class="muted"></p>
+            </div>
+            <div class="overview-header-actions">
+              <button id="overview-select-all" class="secondary" type="button">全选</button>
+              <button id="overview-publish-selected" class="secondary" type="button">发布选中</button>
+              <button id="overview-delete-selected" class="secondary" type="button">删除选中</button>
+              <button id="close-overview" class="overview-close" type="button" aria-label="关闭">×</button>
+            </div>
+          </header>
+          <div id="overview-list" class="highlight-overview-list"></div>
+          <footer class="highlight-overview-footer">
+            <span id="overview-selected-info" class="muted">已选择 0 项</span>
+            <button id="overview-close-btn" class="review-primary-btn" type="button">关闭</button>
+          </footer>
+        </section>
+      </div>
+
+      <div id="shortcuts-help-modal" class="shortcuts-help-modal hidden" role="dialog" aria-modal="true">
+        <div class="shortcuts-help-backdrop" data-help-close></div>
+        <section class="shortcuts-help-card">
+          <header class="shortcuts-help-head">
+            <h2>键盘快捷键</h2>
+            <button id="close-help" class="help-close" type="button" aria-label="关闭">×</button>
+          </header>
+          <div class="shortcuts-help-content">
+            <div class="shortcuts-section">
+              <h3>视频控制</h3>
+              <div class="shortcut-item"><kbd>Space</kbd><span>播放 / 暂停</span></div>
+              <div class="shortcut-item"><kbd>←</kbd><span>后退 5s</span></div>
+              <div class="shortcut-item"><kbd>→</kbd><span>前进 5s</span></div>
+              <div class="shortcut-item"><kbd>J</kbd><span>上一高光</span></div>
+              <div class="shortcut-item"><kbd>K</kbd><span>下一高光</span></div>
+            </div>
+            <div class="shortcuts-section">
+              <h3>审核操作</h3>
+              <div class="shortcut-item"><kbd>E</kbd><span>编辑当前高光</span></div>
+              <div class="shortcut-item"><kbd>P</kbd><span>发布当前高光</span></div>
+              <div class="shortcut-item"><kbd>D</kbd><span>删除当前高光</span></div>
+              <div class="shortcut-item"><kbd>O</kbd><span>高光总览</span></div>
+            </div>
+            <div class="shortcuts-section">
+              <h3>通用</h3>
+              <div class="shortcut-item"><kbd>?</kbd><span>显示帮助</span></div>
+              <div class="shortcut-item"><kbd>Esc</kbd><span>关闭弹窗</span></div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+
+    <script src="/review.js?v=delivery-20260610"></script>
+  </body>
+</html>

@@ -1,0 +1,2721 @@
+{
+  "dramas": {
+    "北派寻宝笔记": {
+      "title": "北派寻宝笔记",
+      "description": "",
+      "cover": "",
+      "category": "悬疑",
+      "createdAt": "2026-05-26T00:00:00.000Z",
+      "episodeCount": 2,
+      "status": "active"
+    },
+    "天下第一纨绔": {
+      "title": "天下第一纨绔",
+      "description": "",
+      "cover": "",
+      "category": "甜宠",
+      "createdAt": "2026-05-26T00:00:00.000Z",
+      "episodeCount": 1,
+      "status": "active"
+    }
+  },
+  "episodes": {
+    "北派寻宝笔记/�?3�?mp4": {
+      "dramaKey": "北派寻宝笔记",
+      "episodeNumber": 63,
+      "title": "�?3�?,
+      "videoPath": "data/北派寻宝笔记/�?3�?mp4",
+      "subtitlePath": "",
+      "duration": 132,
+      "status": "ready",
+      "createdAt": "2026-05-26T00:00:00.000Z",
+      "updatedAt": "2026-05-26T00:00:00.000Z"
+    },
+    "北派寻宝笔记/�?2�?mp4": {
+      "dramaKey": "北派寻宝笔记",
+      "episodeNumber": 72,
+      "title": "�?2�?,
+      "videoPath": "data/北派寻宝笔记/�?2�?mp4",
+      "subtitlePath": "",
+      "duration": 128,
+      "status": "ready",
+      "createdAt": "2026-05-26T00:00:00.000Z",
+      "updatedAt": "2026-05-26T00:00:00.000Z"
+    },
+    "天下第一纨绔/�?�?mp4": {
+      "dramaKey": "天下第一纨绔",
+      "episodeNumber": 1,
+      "title": "�?�?,
+      "videoPath": "data/天下第一纨绔/�?�?mp4",
+      "subtitlePath": "",
+      "duration": 159,
+      "status": "ready",
+      "createdAt": "2026-05-26T00:00:00.000Z",
+      "updatedAt": "2026-05-26T00:00:00.000Z"
+    }
+  },
+  "highlights": [
+    {
+      "id": "hl_import_1779778603450_0",
+      "episodeKey": "北派寻宝笔记/�?2�?mp4",
+      "startTime": 8,
+      "endTime": 16,
+      "type": "悬念",
+      "emotion": "suspense",
+      "intensity": 0.8,
+      "confidence": 0.9,
+      "summary": "戴贝雷帽的长辈严肃警告男主，私自倾倒赃土一旦被发现所有人都要吃牢饭，男主恭敬答应任务要求�?,
+      "suggestions": [
+        "男主能顺利完成任务吗",
+        "会不会很快被人发�?
+      ],
+      "status": "draft",
+      "modelSource": "Doubao-Seed-2.0-lite",
+      "modelReason": "直接点明核心违法风险，瞬间拉高剧情紧张感，给观众留下极强的未知悬念�?,
+      "triggerScore": 8,
+      "effectConfig": {
+        "screenFlash": {
+          "enabled": true,
+          "duration": 700,
+          "color": "rgba(255, 0, 0, 0.3)"
+        },
+        "heartRain": {
+          "enabled": false
+        }
+      },
+      "importedAt": "2026-05-26T06:56:43.450Z",
+      "updatedAt": "2026-05-26T06:56:43.450Z"
+    },
+    {
+      "id": "hl_import_1779778603450_1",
+      "episodeKey": "北派寻宝笔记/�?2�?mp4",
+      "startTime": 30,
+      "endTime": 40,
+      "type": "冲突",
+      "emotion": "surprise",
+      "intensity": 0.7,
+      "confidence": 0.9,
+      "summary": "男主正往河里倒土，被巡河的大学生李静当场撞见，对方冲上来一把揪住他，指控他非法电鱼�?,
+      "suggestions": [
+        "男主要怎么解释",
+        "能顺利蒙混过关吗"
+      ],
+      "status": "draft",
+      "modelSource": "Doubao-Seed-2.0-lite",
+      "modelReason": "秘密行动突然被路人撞破，直接触发最紧急的正面冲突，情绪张力很强�?,
+      "triggerScore": 7,
+      "effectConfig": {
+        "screenFlash": {
+          "enabled": true,
+          "duration": 700,
+          "color": "rgba(255, 0, 0, 0.3)"
+        },
+        "heartRain": {
+          "enabled": false
+        }
+      },
+      "importedAt": "2026-05-26T06:56:43.450Z",
+      "updatedAt": "2026-05-26T06:56:43.450Z"
+    },
+    {
+      "id": "hl_import_1779778603450_2",
+      "episodeKey": "北派寻宝笔记/�?2�?mp4",
+      "startTime": 48,
+      "endTime": 58,
+      "type": "冲突",
+      "emotion": "shock",
+      "intensity": 0.6,
+      "confidence": 0.85,
+      "summary": "二人拉扯时撞见路过的李半仙，李静立刻向对方邀功，炫耀自己抓到了电鱼的嫌疑人�?,
+      "suggestions": [
+        "先生会帮谁说�?,
+        "局面会怎么发展"
+      ],
+      "status": "draft",
+      "modelSource": "Doubao-Seed-2.0-lite",
+      "modelReason": "第三方角色突然介入冲突，让原本就棘手的局面彻底脱离男主掌控�?,
+      "triggerScore": 6,
+      "effectConfig": {
+        "screenFlash": {
+          "enabled": true,
+          "duration": 700,
+          "color": "rgba(255, 0, 0, 0.3)"
+        },
+        "heartRain": {
+          "enabled": false
+        }
+      },
+      "importedAt": "2026-05-26T06:56:43.450Z",
+      "updatedAt": "2026-05-26T06:56:43.450Z"
+    },
+    {
+      "id": "hl_import_1779778603450_3",
+      "episodeKey": "北派寻宝笔记/�?2�?mp4",
+      "startTime": 70,
+      "endTime": 95,
+      "type": "悬念",
+      "emotion": "surprise",
+      "intensity": 0.7,
+      "confidence": 0.9,
+      "summary": "李静要求李半仙算卦验证男主是不是真的在电鱼，男主被逼无奈随便写了个假出生日期递过去�?,
+      "suggestions": [
+        "假生日能骗过先生�?,
+        "算卦会算出真相吗"
+      ],
+      "status": "draft",
+      "modelSource": "Doubao-Seed-2.0-lite",
+      "modelReason": "争执突然转向玄学推演，剧情走向完全不可预判，悬念感瞬间升级�?,
+      "triggerScore": 7,
+      "effectConfig": {
+        "screenFlash": {
+          "enabled": true,
+          "duration": 700,
+          "color": "rgba(255, 0, 0, 0.3)"
+        },
+        "heartRain": {
+          "enabled": false
+        }
+      },
+      "importedAt": "2026-05-26T06:56:43.450Z",
+      "updatedAt": "2026-05-26T06:56:43.450Z"
+    },
+    {
+      "id": "hl_import_1779778603450_4",
+      "episodeKey": "北派寻宝笔记/�?2�?mp4",
+      "startTime": 100,
+      "endTime": 112,
+      "type": "悬念",
+      "emotion": "suspense",
+      "intensity": 0.8,
+      "confidence": 0.95,
+      "summary": "李半仙拿出龟甲和铜钱，动作郑重地现场起卦演算，男主和李静全程屏息盯着�?,
+      "suggestions": [
+        "卦象结果是吉是凶",
+        "男主身份要暴露了�?
+      ],
+      "status": "draft",
+      "modelSource": "Doubao-Seed-2.0-lite",
+      "modelReason": "仪式感拉满的算卦场景，观众都迫切想立刻得知最终结果，是强互动触发点�?,
+      "triggerScore": 8,
+      "effectConfig": {
+        "screenFlash": {
+          "enabled": true,
+          "duration": 700,
+          "color": "rgba(255, 0, 0, 0.3)"
+        },
+        "heartRain": {
+          "enabled": false
+        }
+      },
+      "importedAt": "2026-05-26T06:56:43.450Z",
+      "updatedAt": "2026-05-26T06:56:43.450Z"
+    },
+    {
+      "id": "hl_import_1779778603450_5",
+      "episodeKey": "北派寻宝笔记/�?2�?mp4",
+      "startTime": 115,
+      "endTime": 126,
+      "type": "剧尾钩子",
+      "emotion": "shock",
+      "intensity": 0.9,
+      "confidence": 1,
+      "summary": "李半仙看完卦象完全没提电鱼的事，反而抬眼盯着男主说出“你这命不简单呐”，直接断集留下钩子�?,
+      "suggestions": [
+        "先生发现了什么秘�?,
+        "男主到底是什么身�?
+      ],
+      "status": "draft",
+      "modelSource": "Doubao-Seed-2.0-lite",
+      "modelReason": "完全反转观众预期，跳过表层电鱼纠纷直接指向男主隐藏的特殊身世，是绝佳的追更钩子�?,
+      "triggerScore": 9,
+      "effectConfig": {
+        "screenFlash": {
+          "enabled": true,
+          "duration": 700,
+          "color": "rgba(255, 0, 0, 0.3)"
+        },
+        "heartRain": {
+          "enabled": false
+        }
+      },
+      "importedAt": "2026-05-26T06:56:43.450Z",
+      "updatedAt": "2026-05-26T06:56:43.450Z"
+    },
+    {
+      "id": "hl_import_1779780819104_0",
+      "episodeKey": "天下第一纨绔/�?�?mp4",
+      "startTime": 10,
+      "endTime": 25,
+      "type": "悬念",
+      "emotion": "surprise",
+      "intensity": 0.7,
+      "confidence": 0.9,
+      "summary": "大炎第一高手向皇帝禀报存在实力和自己不相上下的隐藏人物，推测此人有可能是民间传说里的怪侠一枝梅，皇帝听完大为震惊�?,
+      "suggestions": [
+        "好奇神秘人真实身�?,
+        "猜他就是一枝梅�?
+      ],
+      "status": "draft",
+      "modelSource": "Doubao-Seed-2.0-lite",
+      "modelReason": "第一高手抛出重磅信息，皇帝神色骤变，直接制造出极强的未知悬念，观众好奇心被瞬间勾起�?,
+      "importedAt": "2026-05-26T07:33:39.104Z",
+      "updatedAt": "2026-05-26T07:33:39.104Z",
+      "triggerScore": 8,
+      "effectConfig": {
+        "screenFlash": {
+          "enabled": false,
+          "duration": 700,
+          "color": "rgba(255, 0, 0, 0.3)"
+        },
+        "heartRain": {
+          "enabled": false,
+          "count": 30,
+          "duration": 3000
+        }
+      }
+    },
+    {
+      "id": "hl_import_1779780819104_1",
+      "episodeKey": "天下第一纨绔/�?�?mp4",
+      "startTime": 36,
+      "endTime": 45,
+      "type": "冲突",
+      "emotion": "anger",
+      "intensity": 0.8,
+      "confidence": 0.9,
+      "summary": "皇帝面露忧色直言眼下最让他头疼的就是蛮夷发起的比武招亲，明确放话大炎绝对不能输，痛心斥责朝中后辈大多都是苏羽这般无用的纨绔�?,
+      "suggestions": [
+        "力挺大炎不能�?,
+        "担忧比武最终结�?
+      ],
+      "status": "draft",
+      "modelSource": "Doubao-Seed-2.0-lite",
+      "modelReason": "皇帝当众展露对国事的焦虑和对纨绔子弟的强烈不满，情绪张力拉满，和国运相关的冲突感极强�?,
+      "importedAt": "2026-05-26T07:33:39.104Z",
+      "updatedAt": "2026-05-26T07:33:39.104Z",
+      "triggerScore": 8,
+      "effectConfig": {
+        "screenFlash": {
+          "enabled": true,
+          "duration": 700,
+          "color": "rgba(255, 0, 0, 0.3)"
+        },
+        "heartRain": {
+          "enabled": false,
+          "count": 30,
+          "duration": 3000
+        }
+      }
+    },
+    {
+      "id": "hl_import_1779780819104_2",
+      "episodeKey": "天下第一纨绔/�?�?mp4",
+      "startTime": 50,
+      "endTime": 63,
+      "type": "悬念",
+      "emotion": "suspense",
+      "intensity": 0.7,
+      "confidence": 0.9,
+      "summary": "皇帝下令让第一高手暗中测试所有朝中高官子弟的真实实力，要做到心中有数，实在是无才可用来迎战比武的话，就只能另寻他法�?,
+      "suggestions": [
+        "想知道测试的方法",
+        "好奇备选是什么招�?
+      ],
+      "status": "draft",
+      "modelSource": "Doubao-Seed-2.0-lite",
+      "modelReason": "皇帝下达秘密测试权贵子弟的指令，抛出语焉不详的“另寻他法”表述，留下大量剧情想象空间�?,
+      "importedAt": "2026-05-26T07:33:39.104Z",
+      "updatedAt": "2026-05-26T07:33:39.104Z",
+      "triggerScore": 8,
+      "effectConfig": {
+        "screenFlash": {
+          "enabled": false,
+          "duration": 700,
+          "color": "rgba(255, 0, 0, 0.3)"
+        },
+        "heartRain": {
+          "enabled": false,
+          "count": 30,
+          "duration": 3000
+        }
+      }
+    },
+    {
+      "id": "hl_import_1779780819104_3",
+      "episodeKey": "天下第一纨绔/�?�?mp4",
+      "startTime": 64,
+      "endTime": 75,
+      "type": "悬念",
+      "emotion": "suspense",
+      "intensity": 0.8,
+      "confidence": 0.95,
+      "summary": "下属询问皇帝头号纨绔苏羽要不要测试，皇帝看着画面里醉生梦死、沉溺美色享乐的苏羽，最终无奈把相关事宜全权交给高手自行处置�?,
+      "suggestions": [
+        "猜苏羽会怎么被整",
+        "想看纨绔当场翻车"
+      ],
+      "status": "published",
+      "modelSource": "Doubao-Seed-2.0-lite",
+      "modelReason": "收尾在苏羽醉生梦死的享乐画面和皇帝凝重神色的蒙太奇切换处，彻底勾起观众对后续测试纨绔剧情的追更期待，是绝佳剧尾钩子�?,
+      "importedAt": "2026-05-26T07:33:39.104Z",
+      "updatedAt": "2026-05-26T07:33:39.104Z",
+      "triggerScore": 8,
+      "effectConfig": {
+        "screenFlash": {
+          "enabled": false,
+          "duration": 700,
+          "color": "rgba(255, 0, 0, 0.3)"
+        },
+        "heartRain": {
+          "enabled": false,
+          "count": 30,
+          "duration": 3000
+        }
+      }
+    },
+    {
+      "id": "hl_import_1779780876923_0",
+      "episodeKey": "北派寻宝笔记/�?3�?mp4",
+      "startTime": 10,
+      "endTime": 25,
+      "type": "悬念",
+      "emotion": "surprise",
+      "intensity": 0.7,
+      "confidence": 0.9,
+      "summary": "大炎第一高手向皇帝禀报存在实力和自己不相上下的隐藏人物，推测此人有可能是民间传说里的怪侠一枝梅，皇帝听完大为震惊�?,
+      "suggestions": [
+        "好奇神秘人真实身�?,
+        "猜他就是一枝梅�?
+      ],
+      "status": "draft",
+      "modelSource": "Doubao-Seed-2.0-lite",
+      "modelReason": "第一高手抛出重磅信息，皇帝神色骤变，直接制造出极强的未知悬念，观众好奇心被瞬间勾起�?,
+      "importedAt": "2026-05-26T07:34:36.923Z",
+      "updatedAt": "2026-05-26T07:34:36.923Z",
+      "triggerScore": 8,
+      "effectConfig": {
+        "screenFlash": {
+          "enabled": false,
+          "duration": 700,
+          "color": "rgba(255, 0, 0, 0.3)"
+        },
+        "heartRain": {
+          "enabled": false,
+          "count": 30,
+          "duration": 3000
+        }
+      }
+    },
+    {
+      "id": "hl_import_1779780876923_1",
+      "episodeKey": "北派寻宝笔记/�?3�?mp4",
+      "startTime": 36,
+      "endTime": 45,
+      "type": "冲突",
+      "emotion": "anger",
+      "intensity": 0.8,
+      "confidence": 0.9,
+      "summary": "皇帝面露忧色直言眼下最让他头疼的就是蛮夷发起的比武招亲，明确放话大炎绝对不能输，痛心斥责朝中后辈大多都是苏羽这般无用的纨绔�?,
+      "suggestions": [
+        "力挺大炎不能�?,
+        "担忧比武最终结�?
+      ],
+      "status": "draft",
+      "modelSource": "Doubao-Seed-2.0-lite",
+      "modelReason": "皇帝当众展露对国事的焦虑和对纨绔子弟的强烈不满，情绪张力拉满，和国运相关的冲突感极强�?,
+      "importedAt": "2026-05-26T07:34:36.923Z",
+      "updatedAt": "2026-05-26T07:34:36.923Z",
+      "triggerScore": 8,
+      "effectConfig": {
+        "screenFlash": {
+          "enabled": true,
+          "duration": 700,
+          "color": "rgba(255, 0, 0, 0.3)"
+        },
+        "heartRain": {
+          "enabled": false,
+          "count": 30,
+          "duration": 3000
+        }
+      }
+    },
+    {
+      "id": "hl_import_1779780876923_2",
+      "episodeKey": "北派寻宝笔记/�?3�?mp4",
+      "startTime": 50,
+      "endTime": 63,
+      "type": "悬念",
+      "emotion": "suspense",
+      "intensity": 0.7,
+      "confidence": 0.9,
+      "summary": "皇帝下令让第一高手暗中测试所有朝中高官子弟的真实实力，要做到心中有数，实在是无才可用来迎战比武的话，就只能另寻他法�?,
+      "suggestions": [
+        "想知道测试的方法",
+        "好奇备选是什么招�?
+      ],
+      "status": "draft",
+      "modelSource": "Doubao-Seed-2.0-lite",
+      "modelReason": "皇帝下达秘密测试权贵子弟的指令，抛出语焉不详的“另寻他法”表述，留下大量剧情想象空间�?,
+      "importedAt": "2026-05-26T07:34:36.923Z",
+      "updatedAt": "2026-05-26T07:34:36.923Z",
+      "triggerScore": 8,
+      "effectConfig": {
+        "screenFlash": {
+          "enabled": false,
+          "duration": 700,
+          "color": "rgba(255, 0, 0, 0.3)"
+        },
+        "heartRain": {
+          "enabled": false,
+          "count": 30,
+          "duration": 3000
+        }
+      }
+    },
+    {
+      "id": "hl_import_1779780876923_3",
+      "episodeKey": "北派寻宝笔记/�?3�?mp4",
+      "startTime": 64,
+      "endTime": 75,
+      "type": "悬念",
+      "emotion": "suspense",
+      "intensity": 0.8,
+      "confidence": 0.95,
+      "summary": "下属询问皇帝头号纨绔苏羽要不要测试，皇帝看着画面里醉生梦死、沉溺美色享乐的苏羽，最终无奈把相关事宜全权交给高手自行处置�?,
+      "suggestions": [
+        "猜苏羽会怎么被整",
+        "想看纨绔当场翻车"
+      ],
+      "status": "published",
+      "modelSource": "Doubao-Seed-2.0-lite",
+      "modelReason": "收尾在苏羽醉生梦死的享乐画面和皇帝凝重神色的蒙太奇切换处，彻底勾起观众对后续测试纨绔剧情的追更期待，是绝佳剧尾钩子�?,
+      "importedAt": "2026-05-26T07:34:36.923Z",
+      "updatedAt": "2026-05-26T07:34:36.923Z",
+      "triggerScore": 8,
+      "effectConfig": {
+        "screenFlash": {
+          "enabled": false,
+          "duration": 700,
+          "color": "rgba(255, 0, 0, 0.3)"
+        },
+        "heartRain": {
+          "enabled": false,
+          "count": 30,
+          "duration": 3000
+        }
+      }
+    },
+    {
+      "id": "hl_import_1779781050026_0",
+      "episodeKey": "北派寻宝笔记/�?4�?mp4",
+      "startTime": 22,
+      "endTime": 41,
+      "type": "爽点",
+      "emotion": "satisfying",
+      "intensity": 0.8,
+      "confidence": 0.9,
+      "summary": "男主当众摔碎奸商的假古董，硬核科普青花瓷历史戳穿骗局，打脸嚣张奸�?,
+      "suggestions": [
+        "这打脸太解气",
+        "我也懂这古董知识",
+        "看奸商当场破�?
+      ],
+      "status": "published",
+      "modelSource": "Doubao-Seed-2.0-lite",
+      "modelReason": "男主直接夺过号称汉朝青花瓷的赝品摔碎，当场科普青花瓷起源知识戳穿奸商的低级谎言，围观路人纷纷附和，爽感瞬间拉满",
+      "importedAt": "2026-05-26T07:37:30.026Z",
+      "updatedAt": "2026-05-26T07:37:30.026Z",
+      "triggerScore": 9,
+      "effectConfig": {
+        "screenFlash": {
+          "enabled": true,
+          "duration": 700,
+          "color": "rgba(255, 0, 0, 0.3)"
+        },
+        "heartRain": {
+          "enabled": false,
+          "count": 30,
+          "duration": 3000
+        }
+      }
+    },
+    {
+      "id": "hl_import_1779781050026_1",
+      "episodeKey": "北派寻宝笔记/�?4�?mp4",
+      "startTime": 50,
+      "endTime": 72,
+      "type": "冲突",
+      "emotion": "anger",
+      "intensity": 0.8,
+      "confidence": 0.9,
+      "summary": "光头奸商恼羞成怒动手殴打男主，扬言要弄死男�?,
+      "suggestions": [
+        "快找人帮�?,
+        "这奸商也太嚣张了"
+      ],
+      "status": "published",
+      "modelSource": "Doubao-Seed-2.0-lite",
+      "modelReason": "光头骗局被当众揭穿后恼羞成怒，直接把男主推倒在地挥拳要打人，现场肢体冲突爆发，气氛瞬间变得紧张",
+      "importedAt": "2026-05-26T07:37:30.026Z",
+      "updatedAt": "2026-05-26T07:37:30.026Z",
+      "triggerScore": 8,
+      "effectConfig": {
+        "screenFlash": {
+          "enabled": true,
+          "duration": 700,
+          "color": "rgba(255, 0, 0, 0.3)"
+        },
+        "heartRain": {
+          "enabled": false,
+          "count": 30,
+          "duration": 3000
+        }
+      }
+    },
+    {
+      "id": "hl_import_1779781050026_2",
+      "episodeKey": "北派寻宝笔记/�?4�?mp4",
+      "startTime": 117,
+      "endTime": 153,
+      "type": "悬念",
+      "emotion": "suspense",
+      "intensity": 0.7,
+      "confidence": 0.9,
+      "summary": "王显生和女手下暗中商量，要故意让男主吃点苦头才肯加入自己的团�?,
+      "suggestions": [
+        "老头打的什么算�?,
+        "这是早就设好的局�?
+      ],
+      "status": "published",
+      "modelSource": "Doubao-Seed-2.0-lite",
+      "modelReason": "之前救下男主的神秘古玩大佬并未直接招揽男主，反而安排手下故意让男主经历绝境，隐藏布局的悬念感拉满",
+      "importedAt": "2026-05-26T07:37:30.026Z",
+      "updatedAt": "2026-05-26T07:37:30.026Z",
+      "triggerScore": 8,
+      "effectConfig": {
+        "screenFlash": {
+          "enabled": false,
+          "duration": 700,
+          "color": "rgba(255, 0, 0, 0.3)"
+        },
+        "heartRain": {
+          "enabled": false,
+          "count": 30,
+          "duration": 3000
+        }
+      }
+    },
+    {
+      "id": "hl_import_1779781050026_3",
+      "episodeKey": "北派寻宝笔记/�?4�?mp4",
+      "startTime": 159,
+      "endTime": 183,
+      "type": "冲突",
+      "emotion": "anger",
+      "intensity": 0.85,
+      "confidence": 0.95,
+      "summary": "男主发现奶奶的救命钱全部被偷，返回潘家园找光头理论，反被光头当众羞辱说丢钱活该让他随便报�?,
+      "suggestions": [
+        "直接硬刚奸商",
+        "找警察主持公�?
+      ],
+      "status": "published",
+      "modelSource": "Doubao-Seed-2.0-lite",
+      "modelReason": "男主用来给奶奶治病的四千救命钱全部被偷走，回头讨说法反而被光头恶意挑衅羞辱，周围所有商贩都偏袒奸商，男主孤立无援情绪彻底崩�?,
+      "importedAt": "2026-05-26T07:37:30.026Z",
+      "updatedAt": "2026-05-26T07:37:30.026Z",
+      "triggerScore": 8,
+      "effectConfig": {
+        "screenFlash": {
+          "enabled": true,
+          "duration": 700,
+          "color": "rgba(255, 0, 0, 0.3)"
+        },
+        "heartRain": {
+          "enabled": false,
+          "count": 30,
+          "duration": 3000
+        }
+      }
+    },
+    {
+      "id": "hl_import_1779781050026_4",
+      "episodeKey": "北派寻宝笔记/�?4�?mp4",
+      "startTime": 227,
+      "endTime": 240,
+      "type": "悬念",
+      "emotion": "fear",
+      "intensity": 0.9,
+      "confidence": 0.9,
+      "summary": "男主走投无路站在城墙边缘即将失足坠落，王显生突然出现一把拉住男主将他救�?,
+      "suggestions": [
+        "千万别跳�?,
+        "老头怎么会在这里�?
+      ],
+      "status": "published",
+      "modelSource": "Doubao-Seed-2.0-lite",
+      "modelReason": "男主站在高大古建筑的城墙边缘准备轻生，脚边打滑瞬间摇摇欲坠，生死一瞬间神秘大佬突然现身把他拉住，危机感拉满",
+      "importedAt": "2026-05-26T07:37:30.026Z",
+      "updatedAt": "2026-05-26T07:37:30.026Z",
+      "triggerScore": 8,
+      "effectConfig": {
+        "screenFlash": {
+          "enabled": false,
+          "duration": 700,
+          "color": "rgba(255, 0, 0, 0.3)"
+        },
+        "heartRain": {
+          "enabled": false,
+          "count": 30,
+          "duration": 3000
+        }
+      }
+    },
+    {
+      "id": "hl_import_1779781050026_5",
+      "episodeKey": "北派寻宝笔记/�?4�?mp4",
+      "startTime": 259,
+      "endTime": 281,
+      "type": "反转",
+      "emotion": "surprise",
+      "intensity": 0.9,
+      "confidence": 0.9,
+      "summary": "王显生告知男主不需要一年、一周，只需要一分钟就能赚到两万块，正式邀请男主跟自己入伙",
+      "suggestions": [
+        "立刻跟他�?,
+        "这不会是圈套�?
+      ],
+      "status": "published",
+      "modelSource": "Doubao-Seed-2.0-lite",
+      "modelReason": "在男主刚刚万念俱灰、觉得四千块都拿不回来的情况下，大佬抛出一分钟赚两万的颠覆性邀约，彻底逆转男主命运走向，作为剧尾钩子悬念极�?,
+      "importedAt": "2026-05-26T07:37:30.026Z",
+      "updatedAt": "2026-05-26T07:37:30.026Z",
+      "triggerScore": 9,
+      "effectConfig": {
+        "screenFlash": {
+          "enabled": true,
+          "duration": 700,
+          "color": "rgba(255, 0, 0, 0.3)"
+        },
+        "heartRain": {
+          "enabled": false,
+          "count": 30,
+          "duration": 3000
+        }
+      }
+    },
+    {
+      "id": "hl_import_1779781270755_0",
+      "episodeKey": "天下第一纨绔/�?�?mp4",
+      "startTime": 13,
+      "endTime": 21,
+      "type": "冲突",
+      "emotion": "anger",
+      "intensity": 0.8,
+      "confidence": 0.9,
+      "summary": "大炎皇帝得知蛮夷三国不请自来要参加公主比武招亲，暴怒下令砍掉当初献策开放比武招亲的所有人�?,
+      "suggestions": [
+        "支持皇帝严惩",
+        "看看大臣怎么�?
+      ],
+      "status": "draft",
+      "modelSource": "Doubao-Seed-2.0-lite",
+      "modelReason": "盛怒之下的情绪爆发，直接抛出公主招亲的核心危机，朝堂冲突瞬间拉满�?,
+      "importedAt": "2026-05-26T07:41:10.755Z",
+      "updatedAt": "2026-05-26T07:41:10.755Z",
+      "triggerScore": 8,
+      "effectConfig": {
+        "screenFlash": {
+          "enabled": true,
+          "duration": 700,
+          "color": "rgba(255, 0, 0, 0.3)"
+        },
+        "heartRain": {
+          "enabled": false,
+          "count": 30,
+          "duration": 3000
+        }
+      }
+    },
+    {
+      "id": "hl_import_1779781270755_1",
+      "episodeKey": "天下第一纨绔/�?�?mp4",
+      "startTime": 84,
+      "endTime": 91,
+      "type": "爽点",
+      "emotion": "surprise",
+      "intensity": 0.7,
+      "confidence": 0.9,
+      "summary": "苏羽现身怡香院，豪言全场消费由他买单，大把撒出银票，全场女子欢呼哄抢�?,
+      "suggestions": [
+        "一起抢银票",
+        "看他还有什么排�?
+      ],
+      "status": "draft",
+      "modelSource": "Doubao-Seed-2.0-lite",
+      "modelReason": "顶级纨绔一掷千金的名场面，极度张扬的浪荡人设瞬间立住，视觉冲击极强�?,
+      "importedAt": "2026-05-26T07:41:10.755Z",
+      "updatedAt": "2026-05-26T07:41:10.755Z",
+      "triggerScore": 9,
+      "effectConfig": {
+        "screenFlash": {
+          "enabled": true,
+          "duration": 700,
+          "color": "rgba(255, 0, 0, 0.3)"
+        },
+        "heartRain": {
+          "enabled": false,
+          "count": 30,
+          "duration": 3000
+        }
+      }
+    },
+    {
+      "id": "hl_import_1779781270755_2",
+      "episodeKey": "天下第一纨绔/�?�?mp4",
+      "startTime": 119,
+      "endTime": 131,
+      "type": "冲突",
+      "emotion": "shock",
+      "intensity": 0.9,
+      "confidence": 0.95,
+      "summary": "苏羽抬头看到微服的大炎皇帝，误以为他是怡香院新来的下人，出言调侃让如烟下来陪自己，还要多赏两个姑娘给对方�?,
+      "suggestions": [
+        "看皇帝如何发�?,
+        "猜苏羽认出皇帝没"
+      ],
+      "status": "draft",
+      "modelSource": "Doubao-Seed-2.0-lite",
+      "modelReason": "当朝九五之尊被纨绔子弟当成陌生杂役，身份反差感拉满，戏剧冲突直接登顶�?,
+      "importedAt": "2026-05-26T07:41:10.755Z",
+      "updatedAt": "2026-05-26T07:41:10.755Z",
+      "triggerScore": 8,
+      "effectConfig": {
+        "screenFlash": {
+          "enabled": true,
+          "duration": 700,
+          "color": "rgba(255, 0, 0, 0.3)"
+        },
+        "heartRain": {
+          "enabled": false,
+          "count": 30,
+          "duration": 3000
+        }
+      }
+    },
+    {
+      "id": "hl_import_1779781270755_3",
+      "episodeKey": "天下第一纨绔/�?�?mp4",
+      "startTime": 193,
+      "endTime": 202,
+      "type": "悬念",
+      "emotion": "anger",
+      "intensity": 0.8,
+      "confidence": 0.9,
+      "summary": "皇帝目睹苏羽放浪形骸的样子，气得直接跌坐回椅上，直言大炎武勋后代如果都是这般纨绔，比武招亲根本赢不了，只能把公主拱手送给蛮夷�?,
+      "suggestions": [
+        "看皇帝怎么破局",
+        "难道真没人能赢比武？"
+      ],
+      "status": "draft",
+      "modelSource": "Doubao-Seed-2.0-lite",
+      "modelReason": "点出整部剧的核心矛盾：比武招亲胜负直接关系到大炎国体和公主命运，悬念拉满�?,
+      "importedAt": "2026-05-26T07:41:10.755Z",
+      "updatedAt": "2026-05-26T07:41:10.755Z",
+      "triggerScore": 8,
+      "effectConfig": {
+        "screenFlash": {
+          "enabled": false,
+          "duration": 700,
+          "color": "rgba(255, 0, 0, 0.3)"
+        },
+        "heartRain": {
+          "enabled": false,
+          "count": 30,
+          "duration": 3000
+        }
+      }
+    },
+    {
+      "id": "hl_import_1779781270755_4",
+      "episodeKey": "天下第一纨绔/�?�?mp4",
+      "startTime": 238,
+      "endTime": 252,
+      "type": "冲突",
+      "emotion": "anger",
+      "intensity": 0.9,
+      "confidence": 0.95,
+      "summary": "外邦蛮夷光天化日强抢民女，殴打上前阻拦的百姓，当众大放厥词称大炎皇帝来了都要对他们毕恭毕敬�?,
+      "suggestions": [
+        "看谁来制裁蛮�?,
+        "一起骂蛮夷嚣张"
+      ],
+      "status": "draft",
+      "modelSource": "Doubao-Seed-2.0-lite",
+      "modelReason": "外邦反派彻底践踏大炎尊严，屈辱感拉满，所有观众都在期待反转打脸�?,
+      "importedAt": "2026-05-26T07:41:10.755Z",
+      "updatedAt": "2026-05-26T07:41:10.755Z",
+      "triggerScore": 8,
+      "effectConfig": {
+        "screenFlash": {
+          "enabled": true,
+          "duration": 700,
+          "color": "rgba(255, 0, 0, 0.3)"
+        },
+        "heartRain": {
+          "enabled": false,
+          "count": 30,
+          "duration": 3000
+        }
+      }
+    },
+    {
+      "id": "hl_import_1779781270755_5",
+      "episodeKey": "天下第一纨绔/�?�?mp4",
+      "startTime": 275,
+      "endTime": 290,
+      "type": "反转",
+      "emotion": "surprise",
+      "intensity": 0.9,
+      "confidence": 0.9,
+      "summary": "暗处飞出数枚水形暗器，瞬间将多名作恶的蛮夷高手全部击倒秒杀，大内高手秦武飞身赶到现场，所有人都误以为是他出手�?,
+      "suggestions": [
+        "你猜出手的人是谁",
+        "点个赞大快人�?
+      ],
+      "status": "draft",
+      "modelSource": "Doubao-Seed-2.0-lite",
+      "modelReason": "反派被瞬间秒杀的爽点拉满，第一时间误导观众是秦武出手，为后续终极反转做好铺垫�?,
+      "importedAt": "2026-05-26T07:41:10.755Z",
+      "updatedAt": "2026-05-26T07:41:10.755Z",
+      "triggerScore": 9,
+      "effectConfig": {
+        "screenFlash": {
+          "enabled": true,
+          "duration": 700,
+          "color": "rgba(255, 0, 0, 0.3)"
+        },
+        "heartRain": {
+          "enabled": false,
+          "count": 30,
+          "duration": 3000
+        }
+      }
+    },
+    {
+      "id": "hl_import_1779781270755_6",
+      "episodeKey": "天下第一纨绔/�?�?mp4",
+      "startTime": 300,
+      "endTime": 309,
+      "type": "悬念",
+      "emotion": "shock",
+      "intensity": 0.95,
+      "confidence": 1,
+      "summary": "秦武顺着暗器来源找到怡香院，抬头撞见刚才还在醉卧美人膝的苏羽，此时已经收起所有醉意，眼神锐利如同顶尖高手�?,
+      "suggestions": [
+        "他居然藏得这么深�?,
+        "马上看下集揭�?
+      ],
+      "status": "published",
+      "modelSource": "Doubao-Seed-2.0-lite",
+      "modelReason": "完全颠覆此前所有人对苏羽纨绔废物的印象，留下顶级隐藏身份的强悬念，是绝佳的剧尾追更钩子�?,
+      "importedAt": "2026-05-26T07:41:10.755Z",
+      "updatedAt": "2026-05-26T07:41:10.755Z",
+      "triggerScore": 8,
+      "effectConfig": {
+        "screenFlash": {
+          "enabled": false,
+          "duration": 700,
+          "color": "rgba(255, 0, 0, 0.3)"
+        },
+        "heartRain": {
+          "enabled": false,
+          "count": 30,
+          "duration": 3000
+        }
+      }
+    },
+    {
+      "id": "hl_import_1779801936106_0",
+      "episodeKey": "北派寻宝笔记/�?6�?mp4",
+      "startTime": 58,
+      "endTime": 68,
+      "type": "冲突",
+      "emotion": "shock",
+      "intensity": 0.8,
+      "confidence": 0.9,
+      "summary": "原本神态放松的把头王显生猛地站起，神色凌厉严肃地向全队下达今晚凌晨立刻上山下墓的指令，在场所有成员神色瞬间紧绷变色�?,
+      "suggestions": [
+        "居然马上就行动？",
+        "今晚行动会不会踩坑？"
+      ],
+      "status": "published",
+      "modelSource": "Doubao-Seed-2.0-lite",
+      "modelReason": "之前轻松介绍分工的闲聊氛围瞬间被打破，直接将剧情推进到盗墓实操环节，情绪冲击力极强�?,
+      "importedAt": "2026-05-26T13:25:36.106Z",
+      "updatedAt": "2026-05-26T13:25:36.106Z",
+      "triggerScore": 8,
+      "effectConfig": {
+        "screenFlash": {
+          "enabled": true,
+          "duration": 700,
+          "color": "rgba(255, 0, 0, 0.3)"
+        },
+        "heartRain": {
+          "enabled": false,
+          "count": 30,
+          "duration": 3000
+        }
+      }
+    },
+    {
+      "id": "hl_import_1779801936106_1",
+      "episodeKey": "北派寻宝笔记/�?6�?mp4",
+      "startTime": 109,
+      "endTime": 117,
+      "type": "悬念",
+      "emotion": "suspense",
+      "intensity": 0.7,
+      "confidence": 0.9,
+      "summary": "把头用对讲机下达盗墓行内特殊手法“金针灌顶”的操作指令，负责土工的老二立刻领命准备工具开挖�?,
+      "suggestions": [
+        "这是什么盗墓手法？",
+        "能顺利定位墓口吗�?
+      ],
+      "status": "draft",
+      "modelSource": "Doubao-Seed-2.0-lite",
+      "modelReason": "展示专业盗墓行话操作，开启寻墓核心步骤，营造出未知的紧张悬念氛围�?,
+      "importedAt": "2026-05-26T13:25:36.106Z",
+      "updatedAt": "2026-05-26T13:25:36.106Z",
+      "triggerScore": 8,
+      "effectConfig": {
+        "screenFlash": {
+          "enabled": false,
+          "duration": 700,
+          "color": "rgba(255, 0, 0, 0.3)"
+        },
+        "heartRain": {
+          "enabled": false,
+          "count": 30,
+          "duration": 3000
+        }
+      }
+    },
+    {
+      "id": "hl_import_1779801936106_2",
+      "episodeKey": "北派寻宝笔记/�?6�?mp4",
+      "startTime": 127,
+      "endTime": 132,
+      "type": "爽点",
+      "emotion": "satisfying",
+      "intensity": 0.7,
+      "confidence": 0.9,
+      "summary": "老二拿起洛阳铲带出带有古墓特征的生土，兴奋大喊“有”，在场所有人立刻默契配合继续开挖�?,
+      "suggestions": [
+        "找到墓位了！",
+        "马上就能开墓了�?
+      ],
+      "status": "published",
+      "modelSource": "Doubao-Seed-2.0-lite",
+      "modelReason": "队伍终于确认古墓精准位置，前期寻墓的铺垫得到正向反馈，爽点十足�?,
+      "importedAt": "2026-05-26T13:25:36.106Z",
+      "updatedAt": "2026-05-26T13:25:36.106Z",
+      "triggerScore": 9,
+      "effectConfig": {
+        "screenFlash": {
+          "enabled": true,
+          "duration": 700,
+          "color": "rgba(255, 0, 0, 0.3)"
+        },
+        "heartRain": {
+          "enabled": false,
+          "count": 30,
+          "duration": 3000
+        }
+      }
+    },
+    {
+      "id": "hl_import_1779801936106_3",
+      "episodeKey": "北派寻宝笔记/�?6�?mp4",
+      "startTime": 153,
+      "endTime": 161,
+      "type": "悬念",
+      "emotion": "fear",
+      "intensity": 0.8,
+      "confidence": 0.9,
+      "summary": "深夜山林里传来民间寓意不祥的报丧鸟叫声，把头脸色骤变，直言这个征兆非常不吉利�?,
+      "suggestions": [
+        "这是凶兆吗？",
+        "后面要出大事�?
+      ],
+      "status": "draft",
+      "modelSource": "Doubao-Seed-2.0-lite",
+      "modelReason": "盗墓行动中途出现传说中的不祥预兆，大幅拉高后续剧情的危险悬念感�?,
+      "importedAt": "2026-05-26T13:25:36.106Z",
+      "updatedAt": "2026-05-26T13:25:36.106Z",
+      "triggerScore": 8,
+      "effectConfig": {
+        "screenFlash": {
+          "enabled": false,
+          "duration": 700,
+          "color": "rgba(255, 0, 0, 0.3)"
+        },
+        "heartRain": {
+          "enabled": false,
+          "count": 30,
+          "duration": 3000
+        }
+      }
+    },
+    {
+      "id": "hl_import_1779801936106_4",
+      "episodeKey": "北派寻宝笔记/�?6�?mp4",
+      "startTime": 165,
+      "endTime": 175,
+      "type": "爽点",
+      "emotion": "joy",
+      "intensity": 0.8,
+      "confidence": 0.9,
+      "summary": "三名挖洞队员终于成功打出通往古墓内部的盗洞，把头立刻下令全队下洞，要求所有人必须天亮前返回�?,
+      "suggestions": [
+        "盗洞挖通了�?,
+        "下墓能顺利带宝出来吗�?
+      ],
+      "status": "published",
+      "modelSource": "Doubao-Seed-2.0-lite",
+      "modelReason": "众人连续劳作后终于打通盗洞，盗墓行动正式进入核心环节，正向爽点拉满�?,
+      "importedAt": "2026-05-26T13:25:36.106Z",
+      "updatedAt": "2026-05-26T13:25:36.106Z",
+      "triggerScore": 9,
+      "effectConfig": {
+        "screenFlash": {
+          "enabled": true,
+          "duration": 700,
+          "color": "rgba(255, 0, 0, 0.3)"
+        },
+        "heartRain": {
+          "enabled": false,
+          "count": 30,
+          "duration": 3000
+        }
+      }
+    },
+    {
+      "id": "hl_import_1779801936106_5",
+      "episodeKey": "北派寻宝笔记/�?6�?mp4",
+      "startTime": 198,
+      "endTime": 208,
+      "type": "悬念",
+      "emotion": "shock",
+      "intensity": 0.9,
+      "confidence": 1,
+      "summary": "云峰举着手电筒照亮向深处无限延伸的超长古墓甬道，所有人都瞪大眼睛满脸震撼，云峰脱口而出眼前就是传说中的龙穴�?,
+      "suggestions": [
+        "龙穴里藏了多少珍宝？",
+        "古墓里有没有机关�?
+      ],
+      "status": "published",
+      "modelSource": "Doubao-Seed-2.0-lite",
+      "modelReason": "作为本集末尾的强追更钩子，首次亮相传说级的核心古墓场景，留下极强的悬念引导观众观看下一集�?,
+      "importedAt": "2026-05-26T13:25:36.106Z",
+      "updatedAt": "2026-05-26T13:25:36.106Z",
+      "triggerScore": 8,
+      "effectConfig": {
+        "screenFlash": {
+          "enabled": false,
+          "duration": 700,
+          "color": "rgba(255, 0, 0, 0.3)"
+        },
+        "heartRain": {
+          "enabled": false,
+          "count": 30,
+          "duration": 3000
+        }
+      }
+    },
+    {
+      "id": "hl_1780133950397",
+      "episodeKey": "北派寻宝笔记/�?3�?mp4",
+      "startTime": 10,
+      "endTime": 20,
+      "type": "悬念",
+      "emotion": "待补�?,
+      "intensity": 0.6,
+      "confidence": 0.5,
+      "summary": "新建候选高�?5",
+      "suggestions": [
+        "继续�?,
+        "有点东西",
+        "先标一�?
+      ],
+      "status": "draft",
+      "modelSource": "manual",
+      "modelReason": "人工新建候选高光，待补充模型判断依据�?,
+      "createdAt": "2026-05-30T09:39:10.397Z",
+      "updatedAt": "2026-05-30T09:39:10.397Z",
+      "triggerScore": 8,
+      "effectConfig": {
+        "screenFlash": {
+          "enabled": false,
+          "duration": 700,
+          "color": "rgba(255, 0, 0, 0.3)"
+        },
+        "heartRain": {
+          "enabled": false,
+          "count": 30,
+          "duration": 3000
+        }
+      }
+    },
+    {
+      "id": "hl_1780133951646",
+      "episodeKey": "北派寻宝笔记/�?3�?mp4",
+      "startTime": 10,
+      "endTime": 20,
+      "type": "悬念",
+      "emotion": "待补�?,
+      "intensity": 0.6,
+      "confidence": 0.5,
+      "summary": "新建候选高�?6",
+      "suggestions": [
+        "继续�?,
+        "有点东西",
+        "先标一�?
+      ],
+      "status": "draft",
+      "modelSource": "manual",
+      "modelReason": "人工新建候选高光，待补充模型判断依据�?,
+      "createdAt": "2026-05-30T09:39:11.646Z",
+      "updatedAt": "2026-05-30T09:39:11.646Z",
+      "triggerScore": 8,
+      "effectConfig": {
+        "screenFlash": {
+          "enabled": false,
+          "duration": 700,
+          "color": "rgba(255, 0, 0, 0.3)"
+        },
+        "heartRain": {
+          "enabled": false,
+          "count": 30,
+          "duration": 3000
+        }
+      }
+    },
+    {
+      "id": "hl_1780133970635",
+      "episodeKey": "天下第一纨绔/�?�?mp4",
+      "startTime": 10,
+      "endTime": 20,
+      "type": "悬念",
+      "emotion": "待补�?,
+      "intensity": 0.6,
+      "confidence": 0.5,
+      "summary": "新建候选高�?1",
+      "suggestions": [
+        "继续�?,
+        "有点东西",
+        "先标一�?
+      ],
+      "status": "draft",
+      "modelSource": "manual",
+      "modelReason": "人工新建候选高光，待补充模型判断依据�?,
+      "createdAt": "2026-05-30T09:39:30.635Z",
+      "updatedAt": "2026-05-30T09:39:30.635Z",
+      "triggerScore": 8,
+      "effectConfig": {
+        "screenFlash": {
+          "enabled": false,
+          "duration": 700,
+          "color": "rgba(255, 0, 0, 0.3)"
+        },
+        "heartRain": {
+          "enabled": false,
+          "count": 30,
+          "duration": 3000
+        }
+      }
+    },
+    {
+      "id": "hl_1780135318537",
+      "episodeKey": "北派寻宝笔记/�?5�?mp4",
+      "startTime": 10,
+      "endTime": 20,
+      "type": "悬念",
+      "emotion": "待补�?,
+      "intensity": 0.6,
+      "confidence": 0.5,
+      "summary": "新建候选高�?1",
+      "suggestions": [
+        "继续�?,
+        "有点东西",
+        "先标一�?
+      ],
+      "status": "draft",
+      "modelSource": "manual",
+      "modelReason": "人工新建候选高光，待补充模型判断依据�?,
+      "createdAt": "2026-05-30T10:01:58.537Z",
+      "updatedAt": "2026-05-30T10:15:49.935Z",
+      "triggerScore": 8,
+      "effectConfig": {
+        "screenFlash": {
+          "enabled": false,
+          "duration": 700,
+          "color": "rgba(255, 0, 0, 0.3)"
+        },
+        "heartRain": {
+          "enabled": false,
+          "count": 30,
+          "duration": 3000
+        }
+      }
+    },
+    {
+      "id": "hl_import_1780135422705_0",
+      "episodeKey": "北派寻宝笔记/�?5�?mp4",
+      "startTime": 3,
+      "endTime": 37,
+      "type": "悬念",
+      "emotion": "suspense",
+      "intensity": 0.7,
+      "confidence": 0.9,
+      "summary": "神秘老人向项云峰讲述寻龙口诀，开出开奔驰当全村首富的条件，说完转身离去留下项云峰独自抉择�?,
+      "suggestions": [
+        "他会答应入行吗？",
+        "寻龙是什么行当？"
+      ],
+      "status": "draft",
+      "modelSource": "Doubao-Seed-2.0-lite",
+      "modelReason": "老人举止神秘、台词充满江湖神秘感，留下主角是否会选择放弃现有安稳的强悬念�?,
+      "importedAt": "2026-05-30T10:03:42.706Z",
+      "updatedAt": "2026-05-30T10:15:47.629Z",
+      "triggerScore": 8,
+      "effectConfig": {
+        "screenFlash": {
+          "enabled": false,
+          "duration": 700,
+          "color": "rgba(255, 0, 0, 0.3)"
+        },
+        "heartRain": {
+          "enabled": false,
+          "count": 30,
+          "duration": 3000
+        }
+      }
+    },
+    {
+      "id": "hl_import_1780135422706_1",
+      "episodeKey": "北派寻宝笔记/�?5�?mp4",
+      "startTime": 40,
+      "endTime": 53,
+      "type": "冲突",
+      "emotion": "anger",
+      "intensity": 0.8,
+      "confidence": 0.95,
+      "summary": "闪回大雪天众乡亲上门讨债，当众羞辱项云峰和他穷死的父母，项云峰被戳中痛处当众立下誓言要出人头地�?,
+      "suggestions": [
+        "这群人太欺负人了",
+        "支持他逆袭打脸"
+      ],
+      "status": "draft",
+      "modelSource": "Doubao-Seed-2.0-lite",
+      "modelReason": "公开羞辱主角过世父母，情绪张力拉满，直接奠定主角后续所有行为的逆袭动机�?,
+      "importedAt": "2026-05-30T10:03:42.706Z",
+      "updatedAt": "2026-05-30T10:15:59.635Z",
+      "triggerScore": 8,
+      "effectConfig": {
+        "screenFlash": {
+          "enabled": true,
+          "duration": 700,
+          "color": "rgba(255, 0, 0, 0.3)"
+        },
+        "heartRain": {
+          "enabled": false,
+          "count": 30,
+          "duration": 3000
+        }
+      }
+    },
+    {
+      "id": "hl_import_1780135422706_2",
+      "episodeKey": "北派寻宝笔记/�?5�?mp4",
+      "startTime": 51,
+      "endTime": 63,
+      "type": "反转",
+      "emotion": "surprise",
+      "intensity": 0.8,
+      "confidence": 0.9,
+      "summary": "项云峰扔下所有顾虑追出喊住已经转身走下台阶的老人，老人回头露出赏识的笑容，伸手认可他的选择�?,
+      "suggestions": [
+        "拜师成功了！",
+        "这步选得太果�?
+      ],
+      "status": "draft",
+      "modelSource": "Doubao-Seed-2.0-lite",
+      "modelReason": "原本老人已经判定项云峰没胆识准备离开，主角的选择直接扭转剧情走向，完成拜师关键转折�?,
+      "importedAt": "2026-05-30T10:03:42.706Z",
+      "updatedAt": "2026-05-30T10:03:42.706Z",
+      "triggerScore": 9,
+      "effectConfig": {
+        "screenFlash": {
+          "enabled": true,
+          "duration": 700,
+          "color": "rgba(255, 0, 0, 0.3)"
+        },
+        "heartRain": {
+          "enabled": false,
+          "count": 30,
+          "duration": 3000
+        }
+      }
+    },
+    {
+      "id": "hl_import_1780135422706_3",
+      "episodeKey": "北派寻宝笔记/�?5�?mp4",
+      "startTime": 66,
+      "endTime": 84,
+      "type": "反转",
+      "emotion": "shock",
+      "intensity": 0.7,
+      "confidence": 0.9,
+      "summary": "旁白正式揭晓老人江湖外号“银狐”，是北派寻龙的唯一传人，项云峰从此正式踏入寻宝行当�?,
+      "suggestions": [
+        "银狐名号好霸�?,
+        "北派寻龙要搞大事�?
+      ],
+      "status": "draft",
+      "modelSource": "Doubao-Seed-2.0-lite",
+      "modelReason": "揭秘神秘老人的隐藏身份，瞬间拉高整个故事的江湖寻宝质感，超出观众预期�?,
+      "importedAt": "2026-05-30T10:03:42.706Z",
+      "updatedAt": "2026-05-30T10:03:42.706Z",
+      "triggerScore": 9,
+      "effectConfig": {
+        "screenFlash": {
+          "enabled": true,
+          "duration": 700,
+          "color": "rgba(255, 0, 0, 0.3)"
+        },
+        "heartRain": {
+          "enabled": false,
+          "count": 30,
+          "duration": 3000
+        }
+      }
+    },
+    {
+      "id": "hl_import_1780135422706_4",
+      "episodeKey": "北派寻宝笔记/�?5�?mp4",
+      "startTime": 103,
+      "endTime": 118,
+      "type": "爽点",
+      "emotion": "joy",
+      "intensity": 0.7,
+      "confidence": 0.85,
+      "summary": "银狐给项云峰安排入行第一个散土任务，明确许下两年内帮他成为全村首富的承诺，师徒二人笑着一同出发�?,
+      "suggestions": [
+        "首个任务来了�?,
+        "坐等他暴�?
+      ],
+      "status": "draft",
+      "modelSource": "Doubao-Seed-2.0-lite",
+      "modelReason": "呼应之前老人开出的暴富条件，爽点预期直接落地，主角正式开启逆袭之路�?,
+      "importedAt": "2026-05-30T10:03:42.706Z",
+      "updatedAt": "2026-05-30T10:03:42.706Z",
+      "triggerScore": 9,
+      "effectConfig": {
+        "screenFlash": {
+          "enabled": true,
+          "duration": 700,
+          "color": "rgba(255, 0, 0, 0.3)"
+        },
+        "heartRain": {
+          "enabled": false,
+          "count": 30,
+          "duration": 3000
+        }
+      }
+    },
+    {
+      "id": "hl_import_1780135422706_5",
+      "episodeKey": "北派寻宝笔记/�?5�?mp4",
+      "startTime": 121,
+      "endTime": 148,
+      "type": "悬念",
+      "emotion": "suspense",
+      "intensity": 0.9,
+      "confidence": 0.95,
+      "summary": "师徒进入宾馆房间，先后亮相孙家四位性格各异的地头蛇兄妹，性感红衣女子笑着走到项云峰面前故意撩拨他，项云峰露出错愕的表情，剧情戛然而止�?,
+      "suggestions": [
+        "她要做什么？",
+        "新人要被刁难了？"
+      ],
+      "status": "draft",
+      "modelSource": "Doubao-Seed-2.0-lite",
+      "modelReason": "断在主角初次接触江湖险恶势力的危险节点，留下极强的追更钩子，观众迫切想知道后续发展�?,
+      "importedAt": "2026-05-30T10:03:42.706Z",
+      "updatedAt": "2026-05-30T10:03:42.706Z",
+      "triggerScore": 8,
+      "effectConfig": {
+        "screenFlash": {
+          "enabled": false,
+          "duration": 700,
+          "color": "rgba(255, 0, 0, 0.3)"
+        },
+        "heartRain": {
+          "enabled": false,
+          "count": 30,
+          "duration": 3000
+        }
+      }
+    },
+    {
+      "id": "hl_import_1780135436673_0",
+      "episodeKey": "北派寻宝笔记/�?5�?mp4",
+      "startTime": 2,
+      "endTime": 17,
+      "type": "悬念",
+      "emotion": "surprise",
+      "intensity": 0.7,
+      "confidence": 0.9,
+      "summary": "项云峰误会老人要他卖肾大惊失色，老人突然道出失传寻龙秘术暗语，让项云峰当场愣住�?,
+      "suggestions": [
+        "这是什么神秘行当？",
+        "项云峰会答应�?
+      ],
+      "status": "draft",
+      "modelSource": "Doubao-Seed-2.0-lite",
+      "modelReason": "打破普通对话预期，直接抛出寻宝核心设定，瞬间勾起观众好奇心�?,
+      "importedAt": "2026-05-30T10:03:56.673Z",
+      "updatedAt": "2026-05-30T10:15:45.981Z",
+      "triggerScore": 8,
+      "effectConfig": {
+        "screenFlash": {
+          "enabled": false,
+          "duration": 700,
+          "color": "rgba(255, 0, 0, 0.3)"
+        },
+        "heartRain": {
+          "enabled": false,
+          "count": 30,
+          "duration": 3000
+        }
+      }
+    },
+    {
+      "id": "hl_import_1780135436673_1",
+      "episodeKey": "北派寻宝笔记/�?5�?mp4",
+      "startTime": 39,
+      "endTime": 49,
+      "type": "冲突",
+      "emotion": "anger",
+      "intensity": 0.8,
+      "confidence": 0.9,
+      "summary": "闪回大雪天乡邻上门逼债、辱骂过世双亲的屈辱回忆，项云峰压下怒火当众立誓一定要出人头地�?,
+      "suggestions": [
+        "支持云峰出人头地",
+        "太过分了这些债主"
+      ],
+      "status": "draft",
+      "modelSource": "Doubao-Seed-2.0-lite",
+      "modelReason": "过往欺辱场景和男主情绪爆发叠加，充分铺垫男主做出后续选择的动机�?,
+      "importedAt": "2026-05-30T10:03:56.673Z",
+      "updatedAt": "2026-05-30T10:15:51.757Z",
+      "triggerScore": 8,
+      "effectConfig": {
+        "screenFlash": {
+          "enabled": true,
+          "duration": 700,
+          "color": "rgba(255, 0, 0, 0.3)"
+        },
+        "heartRain": {
+          "enabled": false,
+          "count": 30,
+          "duration": 3000
+        }
+      }
+    },
+    {
+      "id": "hl_import_1780135436673_2",
+      "episodeKey": "北派寻宝笔记/�?5�?mp4",
+      "startTime": 51,
+      "endTime": 62,
+      "type": "爽点",
+      "emotion": "relief",
+      "intensity": 0.7,
+      "confidence": 0.9,
+      "summary": "项云峰回过神抱着行李追上即将离开的银狐，银狐回头笑着拍他肩膀，正式认可他的选择�?,
+      "suggestions": [
+        "恭喜云峰拜师�?,
+        "这步选得太对�?
+      ],
+      "status": "draft",
+      "modelSource": "Doubao-Seed-2.0-lite",
+      "modelReason": "男主突破犹豫抓住改变命运的机会，情绪落地释放，是爽感强烈的选择时刻�?,
+      "importedAt": "2026-05-30T10:03:56.673Z",
+      "updatedAt": "2026-05-30T10:03:56.673Z",
+      "triggerScore": 9,
+      "effectConfig": {
+        "screenFlash": {
+          "enabled": true,
+          "duration": 700,
+          "color": "rgba(255, 0, 0, 0.3)"
+        },
+        "heartRain": {
+          "enabled": false,
+          "count": 30,
+          "duration": 3000
+        }
+      }
+    },
+    {
+      "id": "hl_import_1780135436673_3",
+      "episodeKey": "北派寻宝笔记/�?5�?mp4",
+      "startTime": 66,
+      "endTime": 83,
+      "type": "反转",
+      "emotion": "surprise",
+      "intensity": 0.7,
+      "confidence": 0.9,
+      "summary": "旁白揭秘银发老人江湖外号银狐，是北派土行寻宝传人，项云峰正式踏入寻宝行当，主线直接开启�?,
+      "suggestions": [
+        "了解北派寻宝规矩",
+        "期待后续暴富剧情"
+      ],
+      "status": "draft",
+      "modelSource": "Doubao-Seed-2.0-lite",
+      "modelReason": "关键人物身份曝光，直接点明剧集核心世界观，完成爽点前置铺垫�?,
+      "importedAt": "2026-05-30T10:03:56.673Z",
+      "updatedAt": "2026-05-30T10:03:56.673Z",
+      "triggerScore": 9,
+      "effectConfig": {
+        "screenFlash": {
+          "enabled": true,
+          "duration": 700,
+          "color": "rgba(255, 0, 0, 0.3)"
+        },
+        "heartRain": {
+          "enabled": false,
+          "count": 30,
+          "duration": 3000
+        }
+      }
+    },
+    {
+      "id": "hl_import_1780135436673_4",
+      "episodeKey": "北派寻宝笔记/�?5�?mp4",
+      "startTime": 124,
+      "endTime": 148,
+      "type": "悬念",
+      "emotion": "suspense",
+      "intensity": 0.9,
+      "confidence": 1,
+      "summary": "寻宝团伙四位核心成员全员亮相，穿红裙的美艳女子上前当面试探新来的项云峰，剧情戛然而止停在项云峰错愕的表情上�?,
+      "suggestions": [
+        "她是什么来头？",
+        "云峰能通过试探�?
+      ],
+      "status": "draft",
+      "modelSource": "Doubao-Seed-2.0-lite",
+      "modelReason": "作为本集结尾的断集钩子，直接抛出新的未知冲突，极强地吊起观众追看下一集的欲望�?,
+      "importedAt": "2026-05-30T10:03:56.673Z",
+      "updatedAt": "2026-05-30T10:03:56.673Z",
+      "triggerScore": 8,
+      "effectConfig": {
+        "screenFlash": {
+          "enabled": false,
+          "duration": 700,
+          "color": "rgba(255, 0, 0, 0.3)"
+        },
+        "heartRain": {
+          "enabled": false,
+          "count": 30,
+          "duration": 3000
+        }
+      }
+    },
+    {
+      "id": "hl_import_1780135440742_0",
+      "episodeKey": "北派寻宝笔记/�?5�?mp4",
+      "startTime": 0,
+      "endTime": 8,
+      "type": "悬念",
+      "emotion": "shock",
+      "intensity": 0.7,
+      "confidence": 0.9,
+      "summary": "项云峰听闻老人要给自己安排活，误以为对方要让自己卖肾，当场惊慌抗拒脱口拒绝，老人神色严肃开口讲出寻龙口诀�?,
+      "suggestions": [
+        "猜猜是什么活�?,
+        "这老头靠谱吗？"
+      ],
+      "status": "draft",
+      "modelSource": "Doubao-Seed-2.0-lite",
+      "modelReason": "男主误以为对方要取自己器官，瞬间受惊的反差感极强，开篇就拉满悬念�?,
+      "importedAt": "2026-05-30T10:04:00.742Z",
+      "updatedAt": "2026-05-30T10:15:34.870Z",
+      "triggerScore": 8,
+      "effectConfig": {
+        "screenFlash": {
+          "enabled": false,
+          "duration": 700,
+          "color": "rgba(255, 0, 0, 0.3)"
+        },
+        "heartRain": {
+          "enabled": false,
+          "count": 30,
+          "duration": 3000
+        }
+      }
+    },
+    {
+      "id": "hl_import_1780135440742_1",
+      "episodeKey": "北派寻宝笔记/�?5�?mp4",
+      "startTime": 39,
+      "endTime": 50,
+      "type": "冲突",
+      "emotion": "anger",
+      "intensity": 0.8,
+      "confidence": 0.9,
+      "summary": "项云峰闪回大雪天被全村人上门逼债、嘲讽他爹娘穷死的屈辱回忆，眼神彻底变坚定，当众立下誓言一定要出人头地�?,
+      "suggestions": [
+        "为男主加�?,
+        "你支持他的选择�?
+      ],
+      "status": "draft",
+      "modelSource": "Doubao-Seed-2.0-lite",
+      "modelReason": "积压多年的苦难情绪瞬间爆发，男主彻底摆脱优柔寡断的状态，情绪张力极强�?,
+      "importedAt": "2026-05-30T10:04:00.742Z",
+      "updatedAt": "2026-05-30T10:15:55.168Z",
+      "triggerScore": 8,
+      "effectConfig": {
+        "screenFlash": {
+          "enabled": true,
+          "duration": 700,
+          "color": "rgba(255, 0, 0, 0.3)"
+        },
+        "heartRain": {
+          "enabled": false,
+          "count": 30,
+          "duration": 3000
+        }
+      }
+    },
+    {
+      "id": "hl_import_1780135440742_2",
+      "episodeKey": "北派寻宝笔记/�?5�?mp4",
+      "startTime": 51,
+      "endTime": 62,
+      "type": "反转",
+      "emotion": "joy",
+      "intensity": 0.7,
+      "confidence": 0.9,
+      "summary": "老人转身准备离去，项云峰瞬间醒悟抓起行李奋力追赶，追上后二人握手，老人赞许地称他是好小子�?,
+      "suggestions": [
+        "赶紧答应拜师",
+        "这波追对�?
+      ],
+      "status": "draft",
+      "modelSource": "Doubao-Seed-2.0-lite",
+      "modelReason": "男主做出人生命运的关键抉择，从犹豫到果断追逐机遇，爽感十足�?,
+      "importedAt": "2026-05-30T10:04:00.742Z",
+      "updatedAt": "2026-05-30T10:04:00.742Z",
+      "triggerScore": 9,
+      "effectConfig": {
+        "screenFlash": {
+          "enabled": true,
+          "duration": 700,
+          "color": "rgba(255, 0, 0, 0.3)"
+        },
+        "heartRain": {
+          "enabled": false,
+          "count": 30,
+          "duration": 3000
+        }
+      }
+    },
+    {
+      "id": "hl_import_1780135440742_3",
+      "episodeKey": "北派寻宝笔记/�?5�?mp4",
+      "startTime": 66,
+      "endTime": 75,
+      "type": "反转",
+      "emotion": "surprise",
+      "intensity": 0.7,
+      "confidence": 0.9,
+      "summary": "旁白正式揭晓老人江湖外号为银狐，是北派寻龙的正统传人，项云峰拜入师门，寻宝冒险故事正式开启�?,
+      "suggestions": [
+        "开启寻宝副�?,
+        "期待后续冒险"
+      ],
+      "status": "draft",
+      "modelSource": "Doubao-Seed-2.0-lite",
+      "modelReason": "核心人物身份正式曝光，直接点明作品主线，给后续剧情铺垫了极强的期待感�?,
+      "importedAt": "2026-05-30T10:04:00.742Z",
+      "updatedAt": "2026-05-30T10:04:00.742Z",
+      "triggerScore": 9,
+      "effectConfig": {
+        "screenFlash": {
+          "enabled": true,
+          "duration": 700,
+          "color": "rgba(255, 0, 0, 0.3)"
+        },
+        "heartRain": {
+          "enabled": false,
+          "count": 30,
+          "duration": 3000
+        }
+      }
+    },
+    {
+      "id": "hl_import_1780135440742_4",
+      "episodeKey": "北派寻宝笔记/�?5�?mp4",
+      "startTime": 123,
+      "endTime": 135,
+      "type": "悬念",
+      "emotion": "suspense",
+      "intensity": 0.8,
+      "confidence": 0.9,
+      "summary": "师徒二人走进旅馆房间，孙老大、孙老二、孙老三、红衣女性四名核心寻宝成员全员亮相，所有人的目光齐刷刷盯住新人项云峰�?,
+      "suggestions": [
+        "你觉得谁最危险",
+        "新人会被刁难�?
+      ],
+      "status": "draft",
+      "modelSource": "Doubao-Seed-2.0-lite",
+      "modelReason": "配角全员登场，整个房间暗流涌动，审视新人的压迫感直接拉满�?,
+      "importedAt": "2026-05-30T10:04:00.742Z",
+      "updatedAt": "2026-05-30T10:04:00.742Z",
+      "triggerScore": 8,
+      "effectConfig": {
+        "screenFlash": {
+          "enabled": false,
+          "duration": 700,
+          "color": "rgba(255, 0, 0, 0.3)"
+        },
+        "heartRain": {
+          "enabled": false,
+          "count": 30,
+          "duration": 3000
+        }
+      }
+    },
+    {
+      "id": "hl_import_1780135440742_5",
+      "episodeKey": "北派寻宝笔记/�?5�?mp4",
+      "startTime": 138,
+      "endTime": 148,
+      "type": "悬念",
+      "emotion": "suspense",
+      "intensity": 0.9,
+      "confidence": 0.9,
+      "summary": "叼着香烟的红衣女人主动凑到项云峰面前，故意用挑衅语气出言试探，毫无经验的项云峰瞬间神色紧绷不知所措，剧情在此处戛然而止�?,
+      "suggestions": [
+        "该怎么应对刁难",
+        "老头会出手吗"
+      ],
+      "status": "draft",
+      "modelSource": "Doubao-Seed-2.0-lite",
+      "modelReason": "直接把新人考验的冲突推到顶点，卡在最关键的试探节点，是本集的断集钩子，强烈引导观众追看下一集�?,
+      "importedAt": "2026-05-30T10:04:00.742Z",
+      "updatedAt": "2026-05-30T10:04:00.742Z",
+      "triggerScore": 8,
+      "effectConfig": {
+        "screenFlash": {
+          "enabled": false,
+          "duration": 700,
+          "color": "rgba(255, 0, 0, 0.3)"
+        },
+        "heartRain": {
+          "enabled": false,
+          "count": 30,
+          "duration": 3000
+        }
+      }
+    },
+    {
+      "id": "hl_import_1780136076550_0",
+      "episodeKey": "北派寻宝笔记/�?5�?mp4",
+      "startTime": 39,
+      "endTime": 50,
+      "type": "冲突",
+      "emotion": "anger",
+      "intensity": 0.8,
+      "confidence": 0.9,
+      "summary": "项云峰闪回往日在村里被债主羞辱、对方嘲讽他父母穷死的痛苦回忆，当众立下誓言一定要出人头地�?,
+      "suggestions": [
+        "为他的决心点�?,
+        "想看他打脸仇�?,
+        "替他捏一把汗"
+      ],
+      "status": "draft",
+      "modelSource": "Doubao-Seed-2.0-lite",
+      "modelReason": "闪回镜头里村民凶狠指责的画面搭配男主泛红隐忍的眼神，情绪张力拉满，是推动他做出人生抉择的核心情绪铺垫�?,
+      "importedAt": "2026-05-30T10:14:36.551Z",
+      "updatedAt": "2026-05-30T10:15:57.128Z",
+      "triggerScore": 8,
+      "effectConfig": {
+        "screenFlash": {
+          "enabled": true,
+          "duration": 700,
+          "color": "rgba(255, 0, 0, 0.3)"
+        },
+        "heartRain": {
+          "enabled": false,
+          "count": 30,
+          "duration": 3000
+        }
+      }
+    },
+    {
+      "id": "hl_import_1780136076551_1",
+      "episodeKey": "北派寻宝笔记/�?5�?mp4",
+      "startTime": 51,
+      "endTime": 58,
+      "type": "爽点",
+      "emotion": "joy",
+      "intensity": 0.7,
+      "confidence": 0.9,
+      "summary": "项云峰不再犹豫，抱着全部行李狂奔追上转身离开的银狐，选择接受对方的邀约入行�?,
+      "suggestions": [
+        "就知道他会追上去",
+        "支持他开启新人生",
+        "这波选择太勇�?
+      ],
+      "status": "draft",
+      "modelSource": "Doubao-Seed-2.0-lite",
+      "modelReason": "男主从纠结观望到下定决心奔跑追赶的动作一气呵成，完成了改变命运的关键选择，爽感充足�?,
+      "importedAt": "2026-05-30T10:14:36.551Z",
+      "updatedAt": "2026-05-30T10:14:36.551Z",
+      "triggerScore": 9,
+      "effectConfig": {
+        "screenFlash": {
+          "enabled": true,
+          "duration": 700,
+          "color": "rgba(255, 0, 0, 0.3)"
+        },
+        "heartRain": {
+          "enabled": false,
+          "count": 30,
+          "duration": 3000
+        }
+      }
+    },
+    {
+      "id": "hl_import_1780136076551_2",
+      "episodeKey": "北派寻宝笔记/�?5�?mp4",
+      "startTime": 65,
+      "endTime": 73,
+      "type": "反转",
+      "emotion": "surprise",
+      "intensity": 0.7,
+      "confidence": 0.9,
+      "summary": "旁白正式揭晓老者的江湖名号是“银狐”，项云峰走下台阶的这一刻就算正式拜师北派寻宝传人�?,
+      "suggestions": [
+        "原来他是隐世大佬�?,
+        "期待师徒寻宝剧情",
+        "这就拜师了？"
+      ],
+      "status": "draft",
+      "modelSource": "Doubao-Seed-2.0-lite",
+      "modelReason": "此前一直神秘莫测的老者身份正式揭露，完成关键的拜师仪式，给观众很强的剧情揭晓感�?,
+      "importedAt": "2026-05-30T10:14:36.551Z",
+      "updatedAt": "2026-05-30T10:14:36.551Z",
+      "triggerScore": 9,
+      "effectConfig": {
+        "screenFlash": {
+          "enabled": true,
+          "duration": 700,
+          "color": "rgba(255, 0, 0, 0.3)"
+        },
+        "heartRain": {
+          "enabled": false,
+          "count": 30,
+          "duration": 3000
+        }
+      }
+    },
+    {
+      "id": "hl_import_1780136076551_3",
+      "episodeKey": "北派寻宝笔记/�?5�?mp4",
+      "startTime": 103,
+      "endTime": 118,
+      "type": "悬念",
+      "emotion": "suspense",
+      "intensity": 0.7,
+      "confidence": 0.9,
+      "summary": "银狐向项云峰交代第一趟寻宝任务，告诉他只需要负责散土，承诺两年内就能成为全村首富，要带他去见“大家伙”�?,
+      "suggestions": [
+        "猜猜宝物是什�?,
+        "好奇任务难度",
+        "他能完成吗？"
+      ],
+      "status": "draft",
+      "modelSource": "Doubao-Seed-2.0-lite",
+      "modelReason": "师徒二人走在复古街道上交代任务，留足了寻宝内容的悬念，吊足观众胃口�?,
+      "importedAt": "2026-05-30T10:14:36.551Z",
+      "updatedAt": "2026-05-30T10:14:36.551Z",
+      "triggerScore": 8,
+      "effectConfig": {
+        "screenFlash": {
+          "enabled": false,
+          "duration": 700,
+          "color": "rgba(255, 0, 0, 0.3)"
+        },
+        "heartRain": {
+          "enabled": false,
+          "count": 30,
+          "duration": 3000
+        }
+      }
+    },
+    {
+      "id": "hl_import_1780136076551_4",
+      "episodeKey": "北派寻宝笔记/�?5�?mp4",
+      "startTime": 123,
+      "endTime": 134,
+      "type": "悬念",
+      "emotion": "suspense",
+      "intensity": 0.8,
+      "confidence": 0.9,
+      "summary": "二人走进宾馆房间，依次亮相孙家四兄妹，全员都带着玩味的眼神打量新来的项云峰�?,
+      "suggestions": [
+        "这群人什么来�?,
+        "担心男主被刁�?,
+        "他们会接纳新人吗"
+      ],
+      "status": "draft",
+      "modelSource": "Doubao-Seed-2.0-lite",
+      "modelReason": "寻宝团伙全员首次登场，个个面露不善，新成员见面会即将暗流涌动，悬念感强烈�?,
+      "importedAt": "2026-05-30T10:14:36.551Z",
+      "updatedAt": "2026-05-30T10:14:36.551Z",
+      "triggerScore": 8,
+      "effectConfig": {
+        "screenFlash": {
+          "enabled": false,
+          "duration": 700,
+          "color": "rgba(255, 0, 0, 0.3)"
+        },
+        "heartRain": {
+          "enabled": false,
+          "count": 30,
+          "duration": 3000
+        }
+      }
+    },
+    {
+      "id": "hl_import_1780136076551_5",
+      "episodeKey": "北派寻宝笔记/�?5�?mp4",
+      "startTime": 138,
+      "endTime": 148,
+      "type": "悬念",
+      "emotion": "suspense",
+      "intensity": 0.9,
+      "confidence": 0.95,
+      "summary": "红衣女子主动上前故意靠近项云峰，言语挑逗试探他的底细，项云峰错愕警惕抬眼，镜头停在他紧绷的脸上结束�?,
+      "suggestions": [
+        "看他怎么应对美人试探",
+        "点进下集见分�?,
+        "这里有卧底吗"
+      ],
+      "status": "published",
+      "modelSource": "Doubao-Seed-2.0-lite",
+      "modelReason": "这是本集结尾的断集钩子，双方对峙的瞬间戛然而止，强烈吸引观众点开下一集追更�?,
+      "importedAt": "2026-05-30T10:14:36.551Z",
+      "updatedAt": "2026-05-30T10:14:36.551Z",
+      "triggerScore": 8,
+      "effectConfig": {
+        "screenFlash": {
+          "enabled": false,
+          "duration": 700,
+          "color": "rgba(255, 0, 0, 0.3)"
+        },
+        "heartRain": {
+          "enabled": false,
+          "count": 30,
+          "duration": 3000
+        }
+      }
+    }
+  ],
+  "interactions": [
+    {
+      "type": "click",
+      "highlightId": "hl_import_1779777848271_0",
+      "buttonText": "继续�?,
+      "timestamp": "2026-05-26T06:45:00.123Z"
+    },
+    {
+      "id": "act_seed_01",
+      "highlightId": "hl_bp_63_01",
+      "episodeKey": "北派寻宝笔记/�?3�?mp4",
+      "reaction": "不对�?,
+      "createdAt": "2026-05-25T00:00:00.000Z"
+    },
+    {
+      "id": "act_seed_02",
+      "highlightId": "hl_bp_63_02",
+      "episodeKey": "北派寻宝笔记/�?3�?mp4",
+      "reaction": "爽！",
+      "createdAt": "2026-05-25T00:00:00.000Z"
+    },
+    {
+      "id": "act_seed_03",
+      "highlightId": "hl_tx_1_02",
+      "episodeKey": "天下第一纨绔/�?�?mp4",
+      "reaction": "太解气了",
+      "createdAt": "2026-05-25T00:00:00.000Z"
+    },
+    {
+      "id": "act_1779780336597",
+      "highlightId": "hl_bp_63_01",
+      "episodeKey": "北派寻宝笔记/�?3�?mp4",
+      "reaction": "谁在撒谎",
+      "buttonText": "谁在撒谎",
+      "createdAt": "2026-05-26T07:25:36.597Z"
+    },
+    {
+      "id": "act_1779780339668",
+      "highlightId": "hl_bp_63_02",
+      "episodeKey": "北派寻宝笔记/�?3�?mp4",
+      "reaction": "爽！",
+      "buttonText": "爽！",
+      "createdAt": "2026-05-26T07:25:39.668Z"
+    },
+    {
+      "id": "act_1779781286499",
+      "highlightId": "hl_import_1779781050026_2",
+      "episodeKey": "北派寻宝笔记/�?4�?mp4",
+      "reaction": "老头打的什么算�?,
+      "buttonText": "老头打的什么算�?,
+      "createdAt": "2026-05-26T07:41:26.499Z"
+    },
+    {
+      "id": "act_1779781288105",
+      "highlightId": "hl_import_1779781050026_2",
+      "episodeKey": "北派寻宝笔记/�?4�?mp4",
+      "reaction": "这是早就设好的局�?,
+      "buttonText": "这是早就设好的局�?,
+      "createdAt": "2026-05-26T07:41:28.105Z"
+    },
+    {
+      "id": "act_1779781324803",
+      "highlightId": "hl_import_1779781050026_3",
+      "episodeKey": "北派寻宝笔记/�?4�?mp4",
+      "reaction": "直接硬刚奸商",
+      "buttonText": "直接硬刚奸商",
+      "createdAt": "2026-05-26T07:42:04.803Z"
+    },
+    {
+      "id": "act_1779781326414",
+      "highlightId": "hl_import_1779781050026_3",
+      "episodeKey": "北派寻宝笔记/�?4�?mp4",
+      "reaction": "找警察主持公�?,
+      "buttonText": "找警察主持公�?,
+      "createdAt": "2026-05-26T07:42:06.414Z"
+    },
+    {
+      "id": "act_1779781334886",
+      "highlightId": "hl_import_1779781050026_4",
+      "episodeKey": "北派寻宝笔记/�?4�?mp4",
+      "reaction": "老头怎么会在这里�?,
+      "buttonText": "老头怎么会在这里�?,
+      "createdAt": "2026-05-26T07:42:14.886Z"
+    },
+    {
+      "id": "act_1779781340414",
+      "highlightId": "hl_import_1779781050026_5",
+      "episodeKey": "北派寻宝笔记/�?4�?mp4",
+      "reaction": "立刻跟他�?,
+      "buttonText": "立刻跟他�?,
+      "createdAt": "2026-05-26T07:42:20.414Z"
+    },
+    {
+      "id": "act_1779782237810",
+      "highlightId": "hl_import_1779781050026_0",
+      "episodeKey": "北派寻宝笔记/�?4�?mp4",
+      "reaction": "看奸商当场破�?,
+      "buttonText": "看奸商当场破�?,
+      "createdAt": "2026-05-26T07:57:17.810Z"
+    },
+    {
+      "id": "act_1779782380513",
+      "highlightId": "hl_import_1779781050026_0",
+      "episodeKey": "北派寻宝笔记/�?4�?mp4",
+      "reaction": "看奸商当场破�?,
+      "buttonText": "看奸商当场破�?,
+      "createdAt": "2026-05-26T07:59:40.513Z"
+    },
+    {
+      "id": "act_1779788848457",
+      "highlightId": "hl_import_1779781050026_0",
+      "episodeKey": "北派寻宝笔记/�?4�?mp4",
+      "reaction": "这打脸太解气",
+      "buttonText": "这打脸太解气",
+      "createdAt": "2026-05-26T09:47:28.457Z"
+    },
+    {
+      "id": "act_1779788850222",
+      "highlightId": "hl_import_1779781050026_0",
+      "episodeKey": "北派寻宝笔记/�?4�?mp4",
+      "reaction": "我也懂这古董知识",
+      "buttonText": "我也懂这古董知识",
+      "createdAt": "2026-05-26T09:47:30.222Z"
+    },
+    {
+      "id": "act_1779788861730",
+      "highlightId": "hl_import_1779781050026_2",
+      "episodeKey": "北派寻宝笔记/�?4�?mp4",
+      "reaction": "老头打的什么算�?,
+      "buttonText": "老头打的什么算�?,
+      "createdAt": "2026-05-26T09:47:41.730Z"
+    },
+    {
+      "id": "act_1779788862908",
+      "highlightId": "hl_import_1779781050026_2",
+      "episodeKey": "北派寻宝笔记/�?4�?mp4",
+      "reaction": "这是早就设好的局�?,
+      "buttonText": "这是早就设好的局�?,
+      "createdAt": "2026-05-26T09:47:42.908Z"
+    },
+    {
+      "id": "act_1779788863327",
+      "highlightId": "hl_import_1779781050026_2",
+      "episodeKey": "北派寻宝笔记/�?4�?mp4",
+      "reaction": "这是早就设好的局�?,
+      "buttonText": "这是早就设好的局�?,
+      "createdAt": "2026-05-26T09:47:43.327Z"
+    },
+    {
+      "id": "act_1779788863688",
+      "highlightId": "hl_import_1779781050026_2",
+      "episodeKey": "北派寻宝笔记/�?4�?mp4",
+      "reaction": "这是早就设好的局�?,
+      "buttonText": "这是早就设好的局�?,
+      "createdAt": "2026-05-26T09:47:43.688Z"
+    },
+    {
+      "id": "act_1779789174468",
+      "highlightId": "hl_import_1779781050026_2",
+      "episodeKey": "北派寻宝笔记/�?4�?mp4",
+      "reaction": "老头打的什么算�?,
+      "buttonText": "老头打的什么算�?,
+      "createdAt": "2026-05-26T09:52:54.468Z"
+    },
+    {
+      "id": "act_1779789177847",
+      "highlightId": "hl_import_1779781050026_2",
+      "episodeKey": "北派寻宝笔记/�?4�?mp4",
+      "reaction": "这是早就设好的局�?,
+      "buttonText": "这是早就设好的局�?,
+      "createdAt": "2026-05-26T09:52:57.848Z"
+    },
+    {
+      "id": "act_1779789192823",
+      "highlightId": "hl_import_1779781050026_0",
+      "episodeKey": "北派寻宝笔记/�?4�?mp4",
+      "reaction": "这打脸太解气",
+      "buttonText": "这打脸太解气",
+      "createdAt": "2026-05-26T09:53:12.823Z"
+    },
+    {
+      "id": "act_1779789193778",
+      "highlightId": "hl_import_1779781050026_0",
+      "episodeKey": "北派寻宝笔记/�?4�?mp4",
+      "reaction": "我也懂这古董知识",
+      "buttonText": "我也懂这古董知识",
+      "createdAt": "2026-05-26T09:53:13.778Z"
+    },
+    {
+      "id": "act_1779789195565",
+      "highlightId": "hl_import_1779781050026_0",
+      "episodeKey": "北派寻宝笔记/�?4�?mp4",
+      "reaction": "看奸商当场破�?,
+      "buttonText": "看奸商当场破�?,
+      "createdAt": "2026-05-26T09:53:15.565Z"
+    },
+    {
+      "id": "act_1779789201619",
+      "highlightId": "hl_import_1779781050026_0",
+      "episodeKey": "北派寻宝笔记/�?4�?mp4",
+      "reaction": "这打脸太解气",
+      "buttonText": "这打脸太解气",
+      "createdAt": "2026-05-26T09:53:21.619Z"
+    },
+    {
+      "id": "act_1779789320450",
+      "highlightId": "hl_import_1779781050026_0",
+      "episodeKey": "北派寻宝笔记/�?4�?mp4",
+      "reaction": "这打脸太解气",
+      "buttonText": "这打脸太解气",
+      "createdAt": "2026-05-26T09:55:20.450Z"
+    },
+    {
+      "id": "act_1779792037634",
+      "highlightId": "hl_import_1779781050026_1",
+      "episodeKey": "北派寻宝笔记/�?4�?mp4",
+      "reaction": "快找人帮�?,
+      "buttonText": "快找人帮�?,
+      "createdAt": "2026-05-26T10:40:37.634Z"
+    },
+    {
+      "id": "act_1779792039500",
+      "highlightId": "hl_import_1779781050026_1",
+      "episodeKey": "北派寻宝笔记/�?4�?mp4",
+      "reaction": "快找人帮�?,
+      "buttonText": "快找人帮�?,
+      "createdAt": "2026-05-26T10:40:39.501Z"
+    },
+    {
+      "id": "act_1779792328849",
+      "highlightId": "hl_import_1779781050026_2",
+      "episodeKey": "北派寻宝笔记/�?4�?mp4",
+      "reaction": "这是早就设好的局�?,
+      "buttonText": "这是早就设好的局�?,
+      "createdAt": "2026-05-26T10:45:28.849Z"
+    },
+    {
+      "id": "act_1779800891129",
+      "highlightId": "hl_import_1779781050026_2",
+      "episodeKey": "北派寻宝笔记/�?4�?mp4",
+      "reaction": "这是早就设好的局�?,
+      "buttonText": "这是早就设好的局�?,
+      "createdAt": "2026-05-26T13:08:11.130Z"
+    },
+    {
+      "id": "act_1779800893866",
+      "highlightId": "hl_import_1779781050026_2",
+      "episodeKey": "北派寻宝笔记/�?4�?mp4",
+      "reaction": "老头打的什么算�?,
+      "buttonText": "老头打的什么算�?,
+      "createdAt": "2026-05-26T13:08:13.866Z"
+    },
+    {
+      "id": "act_1779800906194",
+      "highlightId": "hl_import_1779781050026_2",
+      "episodeKey": "北派寻宝笔记/�?4�?mp4",
+      "reaction": "这是早就设好的局�?,
+      "buttonText": "这是早就设好的局�?,
+      "createdAt": "2026-05-26T13:08:26.194Z"
+    },
+    {
+      "id": "act_1779800952429",
+      "highlightId": "hl_import_1779781050026_3",
+      "episodeKey": "北派寻宝笔记/�?4�?mp4",
+      "reaction": "直接硬刚奸商",
+      "buttonText": "直接硬刚奸商",
+      "createdAt": "2026-05-26T13:09:12.429Z"
+    },
+    {
+      "id": "act_1779800953333",
+      "highlightId": "hl_import_1779781050026_3",
+      "episodeKey": "北派寻宝笔记/�?4�?mp4",
+      "reaction": "找警察主持公�?,
+      "buttonText": "找警察主持公�?,
+      "createdAt": "2026-05-26T13:09:13.333Z"
+    },
+    {
+      "id": "act_1779800956200",
+      "highlightId": "hl_import_1779781050026_3",
+      "episodeKey": "北派寻宝笔记/�?4�?mp4",
+      "reaction": "直接硬刚奸商",
+      "buttonText": "直接硬刚奸商",
+      "createdAt": "2026-05-26T13:09:16.200Z"
+    },
+    {
+      "id": "act_1779800970874",
+      "highlightId": "hl_import_1779781050026_4",
+      "episodeKey": "北派寻宝笔记/�?4�?mp4",
+      "reaction": "老头怎么会在这里�?,
+      "buttonText": "老头怎么会在这里�?,
+      "createdAt": "2026-05-26T13:09:30.874Z"
+    },
+    {
+      "id": "act_1779801194578",
+      "highlightId": "hl_import_1779781050026_5",
+      "episodeKey": "北派寻宝笔记/�?4�?mp4",
+      "reaction": "这不会是圈套�?,
+      "buttonText": "这不会是圈套�?,
+      "createdAt": "2026-05-26T13:13:14.578Z"
+    },
+    {
+      "id": "act_1779802774648",
+      "highlightId": "hl_import_1779801936106_2",
+      "episodeKey": "北派寻宝笔记/�?6�?mp4",
+      "reaction": "马上就能开墓了�?,
+      "buttonText": "马上就能开墓了�?,
+      "createdAt": "2026-05-26T13:39:34.648Z"
+    },
+    {
+      "id": "act_1779803408448",
+      "highlightId": "hl_import_1779781050026_2",
+      "episodeKey": "北派寻宝笔记/�?4�?mp4",
+      "reaction": "这是早就设好的局�?,
+      "buttonText": "这是早就设好的局�?,
+      "createdAt": "2026-05-26T13:50:08.448Z"
+    },
+    {
+      "id": "act_1780133289352",
+      "highlightId": "hl_import_1779781050026_2",
+      "episodeKey": "北派寻宝笔记/�?4�?mp4",
+      "reaction": "这是早就设好的局�?,
+      "buttonText": "这是早就设好的局�?,
+      "createdAt": "2026-05-30T09:28:09.352Z"
+    },
+    {
+      "id": "act_1780135445527",
+      "highlightId": "hl_import_1779781050026_0",
+      "episodeKey": "北派寻宝笔记/�?4�?mp4",
+      "reaction": "我也懂这古董知识",
+      "buttonText": "我也懂这古董知识",
+      "createdAt": "2026-05-30T10:04:05.527Z"
+    },
+    {
+      "id": "act_1780135447280",
+      "highlightId": "hl_import_1779781050026_0",
+      "episodeKey": "北派寻宝笔记/�?4�?mp4",
+      "reaction": "我也懂这古董知识",
+      "buttonText": "我也懂这古董知识",
+      "createdAt": "2026-05-30T10:04:07.280Z"
+    },
+    {
+      "id": "act_1780135447635",
+      "highlightId": "hl_import_1779781050026_0",
+      "episodeKey": "北派寻宝笔记/�?4�?mp4",
+      "reaction": "我也懂这古董知识",
+      "buttonText": "我也懂这古董知识",
+      "createdAt": "2026-05-30T10:04:07.635Z"
+    },
+    {
+      "id": "act_1780135447860",
+      "highlightId": "hl_import_1779781050026_0",
+      "episodeKey": "北派寻宝笔记/�?4�?mp4",
+      "reaction": "我也懂这古董知识",
+      "buttonText": "我也懂这古董知识",
+      "createdAt": "2026-05-30T10:04:07.860Z"
+    },
+    {
+      "id": "act_1780135448774",
+      "highlightId": "hl_import_1779781050026_0",
+      "episodeKey": "北派寻宝笔记/�?4�?mp4",
+      "reaction": "我也懂这古董知识",
+      "buttonText": "我也懂这古董知识",
+      "createdAt": "2026-05-30T10:04:08.774Z"
+    },
+    {
+      "id": "act_1780135453303",
+      "highlightId": "hl_import_1779781050026_2",
+      "episodeKey": "北派寻宝笔记/�?4�?mp4",
+      "reaction": "这是早就设好的局�?,
+      "buttonText": "这是早就设好的局�?,
+      "createdAt": "2026-05-30T10:04:13.303Z"
+    },
+    {
+      "id": "act_1780135467748",
+      "highlightId": "hl_import_1779781050026_2",
+      "episodeKey": "北派寻宝笔记/�?4�?mp4",
+      "reaction": "这是早就设好的局�?,
+      "buttonText": "这是早就设好的局�?,
+      "createdAt": "2026-05-30T10:04:27.748Z"
+    },
+    {
+      "id": "act_1780138281289",
+      "highlightId": "hl_import_1779780876923_3",
+      "episodeKey": "北派寻宝笔记/�?3�?mp4",
+      "reaction": "想看纨绔当场翻车",
+      "buttonText": "想看纨绔当场翻车",
+      "createdAt": "2026-05-30T10:51:21.289Z"
+    },
+    {
+      "id": "act_1780138296728",
+      "highlightId": "hl_import_1779801936106_0",
+      "episodeKey": "北派寻宝笔记/�?6�?mp4",
+      "reaction": "今晚行动会不会踩坑？",
+      "buttonText": "今晚行动会不会踩坑？",
+      "createdAt": "2026-05-30T10:51:36.729Z"
+    },
+    {
+      "id": "act_1780139473925",
+      "highlightId": "hl_import_1779780876923_3",
+      "episodeKey": "北派寻宝笔记/�?3�?mp4",
+      "reaction": "猜苏羽会怎么被整",
+      "buttonText": "猜苏羽会怎么被整",
+      "createdAt": "2026-05-30T11:11:13.925Z"
+    }
+  ],
+  "continuations": [],
+  "storyBranches": [
+    {
+      "id": "branch_test-001_1780141039050_0",
+      "episodeId": "test-001",
+      "branch_id": "branch_1",
+      "title": "????",
+      "description": "????1",
+      "probability": 0.8,
+      "emotion_curve": [
+        {
+          "time": "00:00",
+          "emotion": "??",
+          "intensity": 0.7
+        }
+      ],
+      "highlights": [
+        {
+          "start_time": 15,
+          "end_time": 25,
+          "type": "??",
+          "description": "????",
+          "intensity": 0.9
+        }
+      ],
+      "ending": {
+        "type": "happy",
+        "description": "????",
+        "cliffhanger": false
+      },
+      "createdAt": "2026-05-30T11:37:19.050Z",
+      "status": "draft"
+    },
+    {
+      "id": "branch_??????-?63?_1780141304991_0",
+      "episodeId": "??????-?63?",
+      "branch_id": "branch_1",
+      "title": "????",
+      "description": "????????,????????????????????????????????????,???????????????,?????????????,?????????",
+      "probability": 0.75,
+      "emotion_curve": [
+        {
+          "time": "00:00",
+          "emotion": "??",
+          "intensity": 0.8
+        },
+        {
+          "time": "00:30",
+          "emotion": "??",
+          "intensity": 0.85
+        },
+        {
+          "time": "01:00",
+          "emotion": "??",
+          "intensity": 0.9
+        }
+      ],
+      "highlights": [
+        {
+          "start_time": 20,
+          "end_time": 30,
+          "type": "??",
+          "description": "???????????",
+          "intensity": 0.9
+        },
+        {
+          "start_time": 65,
+          "end_time": 75,
+          "type": "??",
+          "description": "??????????",
+          "intensity": 0.95
+        }
+      ],
+      "ending": {
+        "type": "happy",
+        "description": "???????????,????????",
+        "cliffhanger": true
+      },
+      "createdAt": "2026-05-30T11:41:44.991Z",
+      "status": "draft"
+    },
+    {
+      "id": "branch_??????-?63?_1780141304991_1",
+      "episodeId": "??????-?63?",
+      "branch_id": "branch_2",
+      "title": "????",
+      "description": "???????????????,??????????????????????????????????,?????????????????--??????????????",
+      "probability": 0.65,
+      "emotion_curve": [
+        {
+          "time": "00:00",
+          "emotion": "??",
+          "intensity": 0.7
+        },
+        {
+          "time": "00:40",
+          "emotion": "??",
+          "intensity": 0.85
+        },
+        {
+          "time": "01:20",
+          "emotion": "??",
+          "intensity": 0.8
+        }
+      ],
+      "highlights": [
+        {
+          "start_time": 40,
+          "end_time": 50,
+          "type": "??",
+          "description": "??????",
+          "intensity": 0.85
+        },
+        {
+          "start_time": 80,
+          "end_time": 90,
+          "type": "??",
+          "description": "?????????",
+          "intensity": 0.88
+        }
+      ],
+      "ending": {
+        "type": "suspense",
+        "description": "??????,?????????",
+        "cliffhanger": true
+      },
+      "createdAt": "2026-05-30T11:41:44.991Z",
+      "status": "draft"
+    }
+  ],
+  "interactionTemplates": {
+    "冲突": {
+      "buttons": [
+        "气死我了",
+        "替她反击",
+        "支持女主"
+      ],
+      "effect": "screen_flash",
+      "position": "bottom",
+      "duration": 3000,
+      "triggerScore": 8
+    },
+    "反转": {
+      "buttons": [
+        "我惊�?,
+        "反转�?,
+        "太爽�?
+      ],
+      "effect": "screen_flash",
+      "position": "bottom",
+      "duration": 3000,
+      "triggerScore": 9
+    },
+    "打脸": {
+      "buttons": [
+        "太解�?,
+        "活该",
+        "继续"
+      ],
+      "effect": "boom_effect",
+      "position": "bottom",
+      "duration": 3000,
+      "triggerScore": 9
+    },
+    "爽点": {
+      "buttons": [
+        "�?,
+        "打脸成功",
+        "终于来了"
+      ],
+      "effect": "screen_flash",
+      "position": "bottom",
+      "duration": 3000,
+      "triggerScore": 9
+    },
+    "甜蜜": {
+      "buttons": [
+        "磕到�?,
+        "太甜�?,
+        "锁死"
+      ],
+      "effect": "heart_rain",
+      "position": "right",
+      "duration": 3000,
+      "triggerScore": 7
+    },
+    "搞笑": {
+      "buttons": [
+        "哈哈哈哈",
+        "太逗了",
+        "绝了"
+      ],
+      "effect": "heart_rain",
+      "position": "right",
+      "duration": 3000,
+      "triggerScore": 6
+    },
+    "营救": {
+      "buttons": [
+        "太险�?,
+        "还好没事",
+        "吓死�?
+      ],
+      "effect": "screen_flash",
+      "position": "bottom",
+      "duration": 3000,
+      "triggerScore": 7
+    },
+    "身份揭露": {
+      "buttons": [
+        "原来是他",
+        "我就知道",
+        "藏得�?
+      ],
+      "effect": "screen_flash",
+      "position": "bottom",
+      "duration": 3000,
+      "triggerScore": 8
+    },
+    "情绪爆发": {
+      "buttons": [
+        "太心�?,
+        "抱抱",
+        "想哭"
+      ],
+      "effect": "screen_flash",
+      "position": "bottom",
+      "duration": 3000,
+      "triggerScore": 7
+    },
+    "悬念": {
+      "buttons": [
+        "快更",
+        "别卡这里",
+        "我猜到了"
+      ],
+      "effect": "countdown",
+      "position": "bottom",
+      "duration": 3000,
+      "triggerScore": 8
+    },
+    "剧尾钩子": {
+      "buttons": [
+        "下一�?,
+        "求更�?,
+        "不能�?
+      ],
+      "effect": "countdown",
+      "position": "bottom",
+      "duration": 3000,
+      "triggerScore": 10
+    }
+  },
+  "analytics": {
+    "totalImpressions": 0,
+    "totalClicks": 47,
+    "totalUsers": 0,
+    "highlightTypeStats": {},
+    "popularButtons": {
+      "谁在撒谎": 1,
+      "爽！": 1,
+      "老头打的什么算�?: 4,
+      "这是早就设好的局�?: 12,
+      "直接硬刚奸商": 3,
+      "找警察主持公�?: 2,
+      "老头怎么会在这里�?: 2,
+      "立刻跟他�?: 1,
+      "看奸商当场破�?: 3,
+      "这打脸太解气": 4,
+      "我也懂这古董知识": 7,
+      "快找人帮�?: 2,
+      "这不会是圈套�?: 1,
+      "马上就能开墓了�?: 1,
+      "想看纨绔当场翻车": 1,
+      "今晚行动会不会踩坑？": 1,
+      "猜苏羽会怎么被整": 1
+    }
+  }
+}

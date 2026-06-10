@@ -1,0 +1,42 @@
+[
+  {
+    "id": "vg_1780655052105_2ca1e7ee",
+    "videoPrompt": "????????????",
+    "title": "分支剧情视频①",
+    "promptSummary": "古装男子祠堂对峙",
+    "config": {},
+    "status": "completed",
+    "progress": 100,
+    "videoUrl": "https://dashscope-a717.oss-accelerate.aliyuncs.com/1d/eb/20260605/3419032b/14612945-metadata_video_720p_cc287d1b-24d6-4688-84ca-1347836a0824_refiner.mp4?Expires=1780741711&OSSAccessKeyId=LTAI5tPxpiCM2hjmWrFXrym1&Signature=pYzael0vpd3%2B2NeMqiqGbq66cdg%3D",
+    "thumbnailUrl": null,
+    "errorMessage": null,
+    "providerTaskId": "cc287d1b-24d6-4688-84ca-1347836a0824",
+    "provider": "aliyun-bailian",
+    "model": "happyhorse-1.0-t2v",
+    "createdAt": "2026-06-05T10:24:12.105Z",
+    "updatedAt": "2026-06-05T11:03:37.091Z",
+    "episodeId": null,
+    "branchId": null,
+    "localFile": "generated/branch_1.mp4"
+  },
+  {
+    "id": "vg_1780654655983_64941670",
+    "videoPrompt": "????????????,??????,?????,????",
+    "title": "分支剧情视频②",
+    "promptSummary": "古装男子祠堂门口夕阳逆光",
+    "config": {},
+    "status": "completed",
+    "progress": 100,
+    "videoUrl": "https://dashscope-a717.oss-accelerate.aliyuncs.com/1d/9c/20260605/3419032b/40757754-metadata_video_720p_ee68aa87-32cf-4b4d-9b61-86e8d904bd6c_refiner.mp4?Expires=1780741408&OSSAccessKeyId=LTAI5tPxpiCM2hjmWrFXrym1&Signature=ubA60jaXRNxXCkRn7CPVaoFpSUQ%3D",
+    "thumbnailUrl": null,
+    "errorMessage": null,
+    "providerTaskId": "ee68aa87-32cf-4b4d-9b61-86e8d904bd6c",
+    "provider": "aliyun-bailian",
+    "model": "happyhorse-1.0-t2v",
+    "createdAt": "2026-06-05T10:17:35.983Z",
+    "updatedAt": "2026-06-05T11:03:37.901Z",
+    "episodeId": null,
+    "branchId": null,
+    "localFile": "generated/branch_2.mp4"
+  }
+]

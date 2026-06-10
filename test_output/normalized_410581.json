@@ -1,0 +1,80 @@
+{
+  "episode_summary": "本集讲述探险小队潜入神秘古墓，接连发现司母戊鼎、青铜血方罍等传说中的顶级国宝，意识到事态严重准备紧急撤离，不料男主突遭异象传送进入未知古代幻境，在目睹诡异宫廷歌舞后遭遇致命未知威胁，剧集突然中断留下强烈悬念。",
+  "highlights": [
+    {
+      "start_time": 7,
+      "end_time": 18,
+      "highlight_type": "shock",
+      "emotion": "shock",
+      "intensity": 0.8,
+      "confidence": 0.9,
+      "summary": "探险队成员接连报出两大传说级国宝名称，全员露出难以置信的震惊神色",
+      "interaction_suggestions": [
+        "你认得这些国宝吗",
+        "猜猜接下来要怎么做"
+      ],
+      "reason": "黑暗环境下手电光束扫过，众人先后确认顶级国宝的存在，冲击感极强，瞬间拉高剧情张力",
+      "status": "draft"
+    },
+    {
+      "start_time": 23,
+      "end_time": 42,
+      "highlight_type": "suspense",
+      "emotion": "suspense",
+      "intensity": 0.7,
+      "confidence": 0.9,
+      "summary": "探险队员通过对讲机和外部头目通话，双方确认此事影响极大，当即决定全队紧急撤离",
+      "interaction_suggestions": [
+        "要不要留下来拿文物",
+        "你觉得他们能顺利撤退吗"
+      ],
+      "reason": "对讲机露出暗线还有外部接应势力，紧急撤离的决策让剧情走向充满不确定性",
+      "status": "draft"
+    },
+    {
+      "start_time": 48,
+      "end_time": 68,
+      "highlight_type": "reversal",
+      "emotion": "surprise",
+      "intensity": 0.8,
+      "confidence": 0.9,
+      "summary": "男主被奇异紫光传送，直接推开古墓木门踏入完全陌生的灯火通明的古代宫殿",
+      "interaction_suggestions": [
+        "你穿越到哪个朝代了",
+        "找找这里的出口在哪"
+      ],
+      "reason": "前一秒还在昏暗的古墓外部，下一秒直接完成空间跳转进入古宫殿，是极强的剧情反转",
+      "status": "draft"
+    },
+    {
+      "start_time": 69,
+      "end_time": 85,
+      "highlight_type": "suspense",
+      "emotion": "shock",
+      "intensity": 0.7,
+      "confidence": 0.9,
+      "summary": "男主亲眼看到宫殿内多名穿古风舞服的女子正在跳完整的宫廷舞蹈，完全超出他的认知",
+      "interaction_suggestions": [
+        "这是幻觉吗",
+        "躲起来不要被发现"
+      ],
+      "reason": "封闭古墓深处居然出现正在表演的活人，违和感拉满，悬念瞬间拉到高点",
+      "status": "draft"
+    },
+    {
+      "start_time": 90,
+      "end_time": 102,
+      "highlight_type": "suspense",
+      "emotion": "fear",
+      "intensity": 0.9,
+      "confidence": 1.0,
+      "summary": "男主面前浮现诡异绿色雾气，暗处角色直接放话要吃掉他，随后强光爆闪画面变黑",
+      "interaction_suggestions": [
+        "男主能活下来吗",
+        "下集谁来救他"
+      ],
+      "reason": "毫无防备的致命威胁直接抛出，剧集戛然而止，是标准的强追更断集钩子",
+      "status": "draft"
+    }
+  ]
+}
