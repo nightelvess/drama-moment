@@ -1,5 +1,4 @@
-﻿
-<h1 align="center">剧燃 Moment</h1>
+﻿<h1 align="center">剧燃 Moment</h1>
 
 <p align="center">
   基于短剧剧情高光识别的即时互动与 AIGC 分支系统
@@ -185,6 +184,17 @@ python manage.py runserver 127.0.0.1:8000
 
 ```text
 data/model-settings.json
+```
+
+API Key 本地配置位置：
+
+```json
+{
+  "apiKey": "你的火山引擎 API Key",
+  "endpointId": "你的模型 Endpoint ID",
+  "modelName": "Doubao-Seed-2.0-lite",
+  "apiBaseUrl": "https://ark.cn-beijing.volces.com/api/v3"
+}
 ```
 
 主要字段：
