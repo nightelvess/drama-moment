@@ -24,7 +24,7 @@
 真实短剧 MP4 -> AI 高光识别 -> 审核后台发布 -> 前台播放器互动 -> 用户行为回流 -> AIGC 分支生成
 ```
 
-## 界面预览
+## 核心架构
 
 <p align="center">
   <img src="./docs/assets/app-preview.png" width="900" alt="剧燃 Moment 界面预览" />
@@ -39,12 +39,6 @@
 | Django 真实数据库后端  | 前端行为通过 Django API 写入 SQLite / MySQL             |
 | AIGC 分支基于选中高光  | 不是整集随机续写，而是围绕具体高光生成剧情分支          |
 | 分支视频与原始剧集隔离 | `data/generated` 只保存 AIGC 产物，不参与普通剧集扫描 |
-
-## 系统架构
-
-<p align="center">
-  <img src="./docs/assets/architecture.svg" width="960" alt="剧燃 Moment 系统架构图" />
-</p>
 
 ## 功能概览
 
