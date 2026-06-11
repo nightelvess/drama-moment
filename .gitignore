@@ -17,6 +17,12 @@ data/*/*.avi
 data/*/*.mov
 !data/.gitkeep
 
+# 根目录下的大视频文件
+*.mp4
+*.mkv
+*.avi
+*.mov
+
 # 敏感配置
 data/model-settings.json
 .env
