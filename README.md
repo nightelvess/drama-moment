@@ -1,46 +1,50 @@
-﻿# 剧燃 Moment
+﻿
+<h1 align="center">剧燃 Moment</h1>
 
-> 基于短剧剧情高光识别的即时互动与 AIGC 分支系统
-> 默认后端：Django + ORM + SQLite / MySQL
+<p align="center">
+  基于短剧剧情高光识别的即时互动与 AIGC 分支系统
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Backend-Django-0C4B33?style=for-the-badge" alt="Django" />
+  <img src="https://img.shields.io/badge/Database-MySQL%20%2F%20SQLite-2563EB?style=for-the-badge" alt="Database" />
+  <img src="https://img.shields.io/badge/AI-Doubao--Seed--2.0--lite-7C3AED?style=for-the-badge" alt="Doubao" />
+  <img src="https://img.shields.io/badge/Frontend-HTML%20%2B%20CSS%20%2B%20JS-F59E0B?style=for-the-badge" alt="Frontend" />
+</p>
+
+---
 
 ## 项目简介
 
-剧燃 Moment 面向短剧播放场景，解决“用户情绪最高点没有被及时激发互动”的问题。
+**剧燃 Moment** 面向短剧播放场景，解决“用情绪最高点没有被及时激发互动”的问题。
 
 系统会对真实短剧 MP4 进行剧情理解，识别冲突、反转、打脸、悬念、甜蜜撒糖等高光片段；高光进入审核后台后，由人工编辑、发布和管理；前台播放器再根据高光时间点展示进度条标记、剧情摘要、互动按钮、全屏动效和互动统计。
 
-核心闭环：
-
 ```text
-真实短剧 MP4
-  -> AI 高光识别
-  -> 审核后台发布
-  -> 前台播放器互动
-  -> 用户行为回流
-  -> AIGC 分支生成
+真实短剧 MP4 -> AI 高光识别 -> 审核后台发布 -> 前台播放器互动 -> 用户行为回流 -> AIGC 分支生成
 ```
+
+## 界面预览
+
+<p align="center">
+  <img src="./docs/assets/app-preview.png" width="900" alt="剧燃 Moment 界面预览" />
+</p>
 
 ## 核心亮点
 
-### 1. 短剧高光驱动互动
+| 能力                   | 说明                                                    |
+| ---------------------- | ------------------------------------------------------- |
+| 短剧高光驱动互动       | 围绕剧情冲突、反转、悬念等高光片段触发即时互动          |
+| AI 生成，人工审核      | 大模型生成候选高光，审核后台进行编辑、发布和删除        |
+| Django 真实数据库后端  | 前端行为通过 Django API 写入 SQLite / MySQL             |
+| AIGC 分支基于选中高光  | 不是整集随机续写，而是围绕具体高光生成剧情分支          |
+| 分支视频与原始剧集隔离 | `data/generated` 只保存 AIGC 产物，不参与普通剧集扫描 |
 
-高光点不是简单手动写死，而是围绕剧情中的冲突、反转、悬念等关键片段生成。前台播放器会在对应时间点展示互动入口，让用户在情绪峰值处完成即时表达。
+## 系统架构
 
-### 2. AI 生成，人工审核
-
-AI 负责生成候选高光，审核后台负责人工修正和发布。这样既提高内容生产效率，也避免模型误判直接影响前台体验。
-
-### 3. Django 真实数据库后端
-
-项目默认采用 Django 后端实现。前台互动、后台高光编辑、AIGC 分支生成、视频任务提交都会通过 Django API 写入数据库。
-
-### 4. AIGC 分支基于选中高光
-
-AIGC 分支不是对整集随机续写，而是基于某个被选中的剧情高光生成，能更好承接用户对关键剧情的二次想象。
-
-### 5. 分支视频与原始剧集隔离
-
-`data/generated` 中的分支生成视频只作为 AIGC 产物存在，不参与普通剧集扫描，也不会被再次拿去生成高光，避免污染高光数据。
+<p align="center">
+  <img src="./docs/assets/architecture.svg" width="960" alt="剧燃 Moment 系统架构图" />
+</p>
 
 ## 功能概览
 
@@ -73,34 +77,6 @@ AIGC 分支不是对整集随机续写，而是基于某个被选中的剧情高
 - 视频生成任务 API
 - JSON 数据导入命令
 - SQLite / MySQL 数据库支持
-
-## 技术架构
-
-```text
-┌──────────────────────────────────────────────┐
-│                  Web 前端                     │
-│  前台播放器 / 审核后台 / 高光动效 / 互动统计   │
-└──────────────────────┬───────────────────────┘
-                       │ REST API
-                       v
-┌──────────────────────────────────────────────┐
-│              Django 后端服务                  │
-│  API 路由 / 业务服务 / ORM / 媒体访问          │
-└───────────────┬──────────────────┬───────────┘
-                │                  │
-                v                  v
-┌──────────────────────┐   ┌───────────────────┐
-│   SQLite / MySQL      │   │   AI 与生成能力     │
-│  高光 / 互动 / 分支   │   │ Doubao / AIGC 分支  │
-└──────────────┬───────┘   └─────────┬─────────┘
-               │                     │
-               v                     v
-┌──────────────────────────────────────────────┐
-│                  媒体资源层                   │
-│ data/<剧名>/*.mp4 原始剧集                    │
-│ data/generated/*.mp4 AIGC 分支视频             │
-└──────────────────────────────────────────────┘
-```
 
 ## 项目结构
 
@@ -180,7 +156,7 @@ python manage.py runserver 127.0.0.1:8000
 
 ## MySQL 部署
 
-### 1. 创建数据库
+### 创建数据库
 
 ```sql
 CREATE DATABASE IF NOT EXISTS juran_moment
@@ -188,7 +164,7 @@ CREATE DATABASE IF NOT EXISTS juran_moment
   DEFAULT COLLATE utf8mb4_unicode_ci;
 ```
 
-### 2. 设置环境变量
+### 设置环境变量
 
 ```powershell
 $env:MYSQL_DATABASE="juran_moment"
@@ -198,7 +174,7 @@ $env:MYSQL_HOST="127.0.0.1"
 $env:MYSQL_PORT="3306"
 ```
 
-### 3. 建表、导入并启动
+### 建表、导入并启动
 
 ```powershell
 cd C:\Users\night\Desktop\AI全栈挑战\backend_django
@@ -265,17 +241,17 @@ GET    /api/video-gen/downloads
 
 ## 数据库模型
 
-Django 后端包含以下核心模型：
-
-- `Drama`：短剧
-- `Episode`：剧集与视频元信息
-- `Highlight`：剧情高光
-- `Interaction`：用户互动记录
-- `VideoBranch`：AIGC 剧情分支
-- `VideoGenerationTask`：视频生成任务
-- `ModelRun`：模型调用记录
-- `Continuation`：剧尾续写
-- `AppSetting`：系统配置
+| 模型                    | 说明             |
+| ----------------------- | ---------------- |
+| `Drama`               | 短剧             |
+| `Episode`             | 剧集与视频元信息 |
+| `Highlight`           | 剧情高光         |
+| `Interaction`         | 用户互动记录     |
+| `VideoBranch`         | AIGC 剧情分支    |
+| `VideoGenerationTask` | 视频生成任务     |
+| `ModelRun`            | 模型调用记录     |
+| `Continuation`        | 剧尾续写         |
+| `AppSetting`          | 系统配置         |
 
 ## 数据保存逻辑
 
@@ -324,6 +300,10 @@ data/generated 不会进入普通剧集列表
 
 ## 常见问题
 
-## 为什么不把 MP4 直接存入 MySQL？
+### 为什么生成的视频不参与高光解析？
+
+生成视频是 AIGC 分支产物，不是原始短剧内容。如果把 `data/generated` 当成普通剧集，会导致后台重复对分支视频生成高光，污染审核列表和数据统计。当前 Django 和 Node 兼容链路都已排除 `data/generated`。
+
+### 为什么不把 MP4 直接存入 MySQL？
 
 视频文件体积大，直接存入数据库会影响备份、查询和服务稳定性。更合理的方式是把视频放在服务器磁盘、对象存储或 CDN，数据库只保存 URL 和元信息。

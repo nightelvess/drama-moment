@@ -1,0 +1,50 @@
+<svg width="1280" height="760" viewBox="0 0 1280 760" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="760" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#07111F"/>
+      <stop offset="0.55" stop-color="#151237"/>
+      <stop offset="1" stop-color="#042A3A"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#7C5CFF"/>
+      <stop offset="1" stop-color="#35E1FF"/>
+    </linearGradient>
+    <style>
+      .title{font:800 34px 'Microsoft YaHei','PingFang SC',sans-serif;fill:#FFFFFF}
+      .subtitle{font:700 20px 'Microsoft YaHei','PingFang SC',sans-serif;fill:#BCEEFF}
+      .body{font:500 16px 'Microsoft YaHei','PingFang SC',sans-serif;fill:#E7F4FF}
+      .muted{font:500 14px 'Microsoft YaHei','PingFang SC',sans-serif;fill:#AFC4E8}
+      .label{font:700 14px 'Microsoft YaHei','PingFang SC',sans-serif;fill:#07111F}
+    </style>
+  </defs>
+  <rect width="1280" height="760" fill="url(#bg)"/>
+  <text x="64" y="62" class="title">剧燃 Moment 系统架构</text>
+  <text x="64" y="95" class="muted">Django 默认后端 · 短剧高光理解 · 即时互动 · AIGC 分支</text>
+  <rect x="64" y="126" width="1152" height="128" rx="24" fill="#131B37" stroke="#3558FF" stroke-opacity="0.65"/>
+  <text x="96" y="166" class="subtitle">Web 前端</text>
+  <text x="96" y="202" class="body">前台播放器：剧集搜索 / MP4 播放 / 进度条高光点 / 摘要卡片 / 互动按钮</text>
+  <text x="650" y="202" class="body">审核后台：高光解析 / 预览编辑 / 发布删除 / AIGC 分支 / 视频任务池</text>
+  <rect x="535" y="280" width="210" height="34" rx="17" fill="#47E7FF"/>
+  <text x="604" y="303" class="label">REST API</text>
+  <path d="M640 254 V280" stroke="#47E7FF" stroke-width="3"/>
+  <path d="M640 314 V342" stroke="#47E7FF" stroke-width="3"/>
+  <path d="M628 330 L640 342 L652 330" stroke="#47E7FF" stroke-width="3"/>
+  <rect x="270" y="342" width="740" height="160" rx="26" fill="#17204A" stroke="url(#line)" stroke-width="2"/>
+  <text x="312" y="386" class="subtitle">Django 后端服务（默认实现）</text>
+  <text x="312" y="424" class="body">API 路由层：/api/dramas · /api/highlights · /api/interactions · /api/video-branches · /api/video-gen</text>
+  <text x="312" y="460" class="body">业务服务层：剧集索引 · 高光审核 · 互动统计 · AIGC 分支 · 视频任务</text>
+  <path d="M460 502 V546" stroke="#77F1FF" stroke-width="3"/>
+  <path d="M448 534 L460 546 L472 534" stroke="#77F1FF" stroke-width="3"/>
+  <path d="M820 502 V546" stroke="#A78BFA" stroke-width="3"/>
+  <path d="M808 534 L820 546 L832 534" stroke="#A78BFA" stroke-width="3"/>
+  <rect x="104" y="546" width="530" height="128" rx="24" fill="#0E253A" stroke="#77F1FF" stroke-opacity="0.75"/>
+  <text x="136" y="586" class="subtitle">SQLite / MySQL</text>
+  <text x="136" y="623" class="body">Drama / Episode · Highlight · Interaction</text>
+  <text x="136" y="653" class="body">VideoBranch · VideoGenerationTask · ModelRun</text>
+  <rect x="706" y="546" width="470" height="128" rx="24" fill="#211B46" stroke="#A78BFA" stroke-opacity="0.75"/>
+  <text x="738" y="586" class="subtitle">AI 与生成能力</text>
+  <text x="738" y="623" class="body">Doubao-Seed-2.0-lite 视频理解</text>
+  <text x="738" y="653" class="body">选中高光生成 AIGC 分支与 video_prompt</text>
+  <rect x="185" y="704" width="910" height="34" rx="17" fill="#13233C" stroke="#35E1FF" stroke-opacity="0.4"/>
+  <text x="230" y="727" class="muted">媒体资源层：data/&lt;剧名&gt;/*.mp4 参与解析；data/generated/*.mp4 仅作为分支视频结果，不参与高光解析</text>
+</svg>
